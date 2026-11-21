@@ -16,7 +16,8 @@
 - **TW-04** 資安署警示：AI代理（OpenClaw「龍蝦」）成資安破口，提出五項防護
   - ✅ <https://moda.gov.tw/ACS/press/news/press/19294>
 - **TW-05** 國安局向立法院報告：中共結合AI深偽、假民調與爭議訊息干擾九合一選舉
-  - ⚠️ <https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026033105/84201600173026605003.pdf>
+  - ✅ <https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026033105/84201600173026605003.pdf>
+  - ✅ <https://www.cna.com.tw/news/aipl/202604060105.aspx>
 - **TW-06** 境外駭客以AI代理（OpenClaw／Hermes）「近乎自主」攻擊台灣政府機關，並擴及核安機關與能源業
   - ✅ <https://moda.gov.tw/ACS/press/news/press/20394>
   - ✅ <https://www.ithome.com.tw/news/178105>
@@ -28,8 +29,11 @@
 - **TW-08** 刑事局破獲「AI變聲」假交友詐欺集團：被害逾2萬人、詐得逾9億元
   - ✅ <https://www.cib.npa.gov.tw/ch/app/news/view?id=1885&module=news&serno=2c6a4aa9-93d3-480b-a528-575268edbe28>
   - ✅ <https://news.pts.org.tw/article/825232>
+  - ✅ <https://www.ettoday.net/news/20260902/3230115.htm>
 - **TW-09** 彰化縣長參選人陳素月遭AI深偽影片抹黑並付費投放廣告，競總報案
   - ✅ <https://www.cna.com.tw/news/aloc/202609100196.aspx>
+- **TW-16** 資安署呼籲中小企業強化資安：導入代理式AI須設人工審核、最小化授權並完整留存日誌
+  - ✅ <https://www.cna.com.tw/news/afe/202609200029.aspx>
 - **TW-10** 國安局報告：中共網攻政府服務網7月暴增至1.856億次，AI用於找漏洞、零時差與郵件惡意程式；AI生成內容用於介選
   - ✅ <https://www.taipeitimes.com/News/front/archives/2026/10/21/2003866334>
   - ✅ <https://www.cna.com.tw/news/aipl/202610200201.aspx>
@@ -40,16 +44,30 @@
   - ✅ <https://www.cna.com.tw/news/afe/202610220434.aspx>
   - ✅ <https://91app.com/91app-202610-security-incident/>
   - ✅ <https://www.taipeitimes.com/News/taiwan/archives/2026/11/12/2003867610>
+  - ✅ <https://ir.91app.com/tw/news_detail.php?id=160>
+  - ✅ <https://ir.91app.com/tw/news_detail.php?id=161>
+  - ✅ <https://www.ithome.com.tw/news/180112>
 - **TW-13** 調查局查獲散布台北市長候選人「深偽音檔」影片男子，聲押禁見
   - ✅ <https://www.mjib.gov.tw/news/Details/1/1224>
   - ✅ <https://news.ltn.com.tw/news/society/breakingnews/5624454>
+- **TW-17** 高雄市警破獲38歲男子「透過AI學習」建置自動化網路攻擊系統，入侵網站後台竊取23萬餘筆個資販售
+  - ✅ <https://www.pbs.npa.gov.tw/ch/app/data/view?id=18740&module=wg183&serno=1f102e1b-90e4-4126-b29d-c6f726478736>
 - **TW-14** 資安署：國際AI網攻波及台灣十餘家企業與平台，逾百萬份個資受影響，近半數涉及AI／ARTEX
   - ✅ <https://moda.gov.tw/ACS/press/news/press/21422>
   - ✅ <https://ec.ltn.com.tw/article/breakingnews/5637709>
   - ✅ <https://www.taipeitimes.com/News/taiwan/archives/2026/11/12/2003867610>
+  - ✅ <https://www.informationsecurity.com.tw/article/article_detail.aspx?aid=13486>
+  - ✅ <https://ai.ettoday.net/news/3270502>
 - **TW-15** 警政署：選舉深偽假訊息已偵處219件，134件176人移送
   - ✅ <https://www.npa.gov.tw/ch/app/news/view?id=2139&module=news&serno=fb675956-bf2e-424a-8955-af9657c1b0b0>
   - ✅ <https://www.taipeitimes.com/News/taiwan/archives/2026/11/12/2003867622>
+  - ✅ <https://www.moi.gov.tw/News_Content.aspx?n=4&s=342941>
+- **TW-18** 調查局破獲駭客以「BOSSAI」AI代理自動化攻擊系統入侵中央與地方消防救護派遣系統，販售OHCA救護資訊予殯葬業者
+  - ✅ <https://www.mjib.gov.tw/news/Details/1/1227>
+- **TW-19** 資安署研擬《政府機關AI資通安全參考指引》，預計明年初發布
+  - ✅ <https://ec.ltn.com.tw/article/breakingnews/5646038>
+  - ✅ <https://money.udn.com/money/story/7307/9888799>
+  - ✅ <https://www.taipeitimes.com/News/taiwan/archives/2026/11/20/2003868075>
 
 ## 中國
 
@@ -67,10 +85,20 @@
   - ✅ <https://news.cctv.cn/2026/04/22/ARTI8icxwzamjEnNsfjlslTN260422.shtml>
 - **CN-06** 國家計算機病毒應急處理中心（CVERC）預警：OpenClaw技能包遭投毒，安裝後靜默下載木馬
   - ✅ <https://www.cverc.org.cn/head/zhaiyao/news20260422-OpenClaw.htm>
+- **CN-09** CVERC發布《大模型與智能體安全綜合測評報告（2026）》
+  - ✅ <https://www.cverc.org.cn/head/jishubaogao/dmxbg2026.htm>
 - **CN-07** CVERC《網路空間安全態勢分析報告（2026）》：境外APT以AI賦能釣魚攻擊中國軍工、高校；涉AI安全事件2,498件
   - ✅ <https://www.cverc.org.cn/head/jishubaogao/wlkjaqtsfxbg2026.pdf>
+- **CN-10** 研究員稱以「五位數美元」購得中國大型「AI中轉站」約6TB明文呼叫資料，含SSH金鑰、VPN設定與雲端金鑰；微步在線示警中轉站可留存並出售對話與憑證
+  - ✅ <https://cn-sec.com/archives/5434495.html>
+  - ✅ <https://www.chaincatcher.com/article/2289095>
+  - ✅ <https://www.theblockbeats.info/flash/366547>
+- **CN-11** CVERC 10月病毒疫情：AI濫用持續惡化，被用於大規模客製化滲透與批量投遞勒索軟體、竊密木馬
+  - ✅ <https://www.cverc.org.cn/yubao/yubao_202610.htm>
 - **CN-08** 湖南茶陵警方破獲以AI換臉影片破解銀行人臉驗證、為境外詐團洗錢案
   - ✅ <https://m.gmw.cn/2026-11/05/content_1304582860.htm>
+- **CN-12** 外交部回應英國NCSC「中國很可能利用AI進行駭客攻擊」評估：拒絕指控
+  - ✅ <https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/jks_674633/jksxwlb_674635/202611/t20261105_12053624.shtml>
 
 ## 日本
 
@@ -87,10 +115,27 @@
   - ✅ <https://www.npa.go.jp/publications/statistics/cybersecurity/data/R8kami/R08_kami_cyber_jousei.pdf>
 - **JP-06** JPCERT/CC注意喚起：國內組織連續遭不正存取外洩個資，新增「濫用AI滲透測試平台（Cairn、CyberStrikeAI、ARTEX）」攻擊案例
   - ✅ <https://www.jpcert.or.jp/at/2026/at260030.html>
+- **JP-10** 國家網路統括室（NCO）發布注意喚起：國內組織接連遭不正存取，要求各機關與重要基礎設施業者緊急點檢
+  - ✅ <https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/dai1/shiryo1.pdf>
+- **JP-11** NICT（CYNEX／LETTICE）注意喚起：連續資料外洩原因之一為「A2B攻擊」——解析公開Android APP後攻擊後端伺服器，AI使漏洞探索高度化
+  - ✅ <https://cynex.nict.go.jp/library/261013-01.html>
+- **JP-12** Scutum（WAF廠商）偵測AI代理對日本網站的攻擊：至少3個來源IP、呈現代理式自動化特徵
+  - ✅ <https://www.scutum.jp/information/waf_tech_blog/2026/10/waf-blog-085.html>
+- **JP-13** GMO Cybersecurity：相次ぐ不正存取的攻擊源多為AI，確認使用中國開發的ARTEX；單一攻擊源鎖定約20家日本企業
+  - ✅ <https://gmo-cybersecurity.com/blog/20261019/>
+  - ✅ <https://www.itmedia.co.jp/news/article/2610/20/2000002423/>
+  - ✅ <https://www.sankei.com/article/20261020-HPL6HXXGDJEBBBMYCRDZ7IRKRE/>
 - **JP-07** JPCERT/CC Eyes：調查日本近期AI輔助攻擊的攻擊基礎設施（APK分析、API漏洞測試）
   - ✅ <https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html>
 - **JP-08** 日本政府網安閣僚會議：AI疑被用於大規模掃描網站竊取個資；Macnica統計今年216起外洩為去年2.6倍
   - ✅ <https://www.japantimes.co.jp/news/2026/10/28/japan/crime-legal/cyberattacks-ai-website-weaknesses/>
+  - ✅ <https://www.cas.go.jp/jp/seisaku/cybersecurity_kakuryokaigi/dai1/shiryo1.pdf>
+- **JP-14** 警察廳長官就「濫用高度技術的不正存取」導致大規模個資外洩發布指示，要求各縣警強化偵查與企業支援
+  - ✅ <https://www.npa.go.jp/news/release/2026/20261106001.html>
+- **JP-15** IPA《AIセキュリティ短信》11月號：彙整日本AI代理攻擊事件（Scutum、NICT、JPCERT、GMO）及PHP2Shell＋Fragnesia攻擊鏈
+  - ✅ <https://www.ipa.go.jp/digital/ai/security/rcu1hd0000007gji-att/2026-5_1113.pdf>
+- **JP-16** 京都府警逮捕42歲男子：以生成式AI架設假禮物卡收購網站，詐騙2人
+  - ✅ <https://news.web.nhk/newsweb/na/nd-20261116de76796>
 - **JP-09** 菲律賓移民局搗毀以AI深偽假冒日本警察的「包裹詐騙」機房，逮捕18名外籍人士
   - ✅ <https://www.gmanetwork.com/news/topstories/metro/1010271/18-foreigners-arrested-in-alleged-ai-powered-parcel-scam-hub-in-pasay/story/>
 
@@ -99,12 +144,22 @@
 - **KR-01** 科技部／KISA《2026上半年網路威脅動向》：生成式AI與AI代理擴大攻擊面，提示注入、權限濫用成新威脅
   - ✅ <https://eiec.kdi.re.kr/policy/materialView.do?num=284894>
   - ✅ <https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04598566645519768>
+- **KR-07** 科技部／KISA發布企業資安強化緊急勸告並將網路威脅警戒升至「注意」，向約2.8萬家企業建議點檢
+  - ✅ <https://www.fnnews.com/news/202610041204270490>
+  - ✅ <https://www.etnews.com/20261004000031>
 - **KR-02** CrowdStrike：未具名攻擊者以中國開發的ARTEX代理框架＋Claude Code攻擊韓國金融機構並外洩資料
   - ✅ <https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/>
   - ✅ <https://www.reuters.com/3fec1b0a85a0/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/>
   - ✅ <https://en.yna.co.kr/view/AEN20261008002200320>
+  - ✅ <https://www.zscaler.com/blogs/security-research/threat-actor-abuses-agentic-ai-pentesting-framework-target-south-korean>
+  - ✅ <https://www.recordedfuture.com/blog/tag-217-artex-south-korean-banks>
+- **KR-08** 金融委員會／金融監督院第二次緊急會議：16家金融公司遭駭、約10萬筆外洩；555家點檢中130家有缺失
+  - ✅ <https://www.yna.co.kr/view/AKR20261014134851002>
 - **KR-03** 首爾警方：非資工背景者以生成式AI與「AI自律滲透測試系統」入侵90餘家機構竊取820萬筆個資並勒索
   - ✅ <https://www.yna.co.kr/view/AKR20261026075100004>
+  - ✅ <https://www.ithome.com.tw/news/179973>
+- **KR-09** 大信證券3.8萬客戶個資外洩、未來資產運用與Bithumb群組軟體外洩；金監院長示警AI攻擊可能常態化
+  - ✅ <https://www.etoday.co.kr/news/view/2641245>
 - **KR-04** Microsoft：北韓8個駭客組織AI採用程度分級，3組已將AI納入日常作業，大量量產針對南韓的釣魚文件
   - ✅ <https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/>
   - ✅ <https://news.sbs.co.kr/english/article.do?news_id=N1008823304>
@@ -125,11 +180,18 @@
 
 - **SG-01** 新加坡警方警示：詐騙者以深偽Zoom會議冒充總理黃循財與內閣秘書，受害者被騙至少490萬新幣
   - ✅ <https://www.police.gov.sg/media-hub/news/2026/05/20260514_advisory_on_scams_involving_impersonation_of_snr_govt_officials_incl_secy_cabinet>
+- **SG-02** 新加坡CSA、GovTech、IMDA聯合發布AD-2026-015：個人AI代理安全使用建議
+  - ✅ <https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-015/>
 
 ## 印尼
 
 - **ID-01** OpenAI：柬埔寨詐騙網絡以AI冒充交友媒合機構，結合人工提示與自動聊天機器人誘騙印尼年輕男性
   - ✅ <https://cdn.openai.com/pdf/df438d70-e3fe-4a6c-a403-ff632def8f79/disrupting-malicious-uses-of-ai.pdf>
+
+## 泰國
+
+- **TH-01** 尖竹汶府警逮捕以AI偽造銀行與警方文件進行戀愛詐騙的男子：623筆轉帳、2,128萬泰銖
+  - ✅ <https://en.thairath.co.th/news/crime/2965583>
 
 ## 印度
 
@@ -138,6 +200,13 @@
   - ✅ <https://github.com/bitdefender/malware-ioc/blob/master/2026%5F03%5F05-apt36-iocs.csv>
 - **IN-02** CERT-In發布CIAD-2026-0020：防範前沿AI驅動的網路風險（嚴重度：高）
   - ✅ <https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0020&pageid=PUBVLNOTES02>
+- **IN-03** CERT-In示警：測試中的AI代理越權存取印度組織真實系統並讀取個資與機密；另有犯罪集團濫用AI代理滲透框架
+  - ✅ <https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html>
+  - ✅ <https://www.medianama.com/wp-content/uploads/2026/10/CERT-In-Advisory-Notes.pdf>
+- **IN-04** Unit 42：犯罪者BUGSTER繞過AI安全控制，以Hermes、DeepSeek與Cursor規劃憑證竊取、VoIP詐騙與資料庫外洩，入侵印度大學
+  - ✅ <https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/>
+- **IN-05** CERT-In命名「Crafty Falcon」：以ARTEX、PentAGI、Cairn、CyberStrikeAI以「機器速度」入侵印度非銀行放貸、金融科技與加密貨幣交易所
+  - ✅ <https://www.business-standard.com/industry/news/china-linked-tools-used-in-ai-driven-cyberattacks-on-indian-financial-firms-126110500996_1.html>
 
 ## 美國
 
@@ -164,10 +233,25 @@
   - ✅ <https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/>
   - ✅ <https://www.connectwise.com/company/trust/advisories>
   - ✅ <https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687>
+- **US-12** Railway雲端平台遭入侵，攻擊者鎖定客戶環境變數中的AI供應商金鑰，造成約74萬美元未授權AI用量
+  - ✅ <https://blog.railway.com/p/incident-report-october-security-incident>
+  - ✅ <https://blog.railway.com/p/bulletin-compensation>
+  - ✅ <https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/>
 - **US-09** 美國紐約南區檢察署起訴3人以AI（深偽語音／影像）冒充執行長與律師，詐騙全球企業1.29億美元
   - ✅ <https://www.justice.gov/index.php/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud>
+- **US-13** Microsoft：攻擊者以ARTEX代理框架搜尋GitHub外洩的OAuth應用程式密鑰，進而入侵Entra租戶
+  - ✅ <https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/>
 - **US-10** FBI FLASH：北韓「FaceStealer」以偽造視訊會議與受害者錄影、AI深偽影片竊取逾4億美元加密貨幣
   - ✅ <https://www.ic3.gov/csa/2026/261112.pdf>
+- **US-14** Unit 42：CL-STA-1238以客製化Cairn自主攻擊框架對至少19個組織發動25次行動，10個成功（半導體、美國國防政策、人權團體）
+  - ✅ <https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/>
+  - ⚠️ <https://www.cybersecuritydive.com/news/china-hacker-ai-tool-campaign-us-defense-semiconductor/874619/>
+- **US-15** Symantec：攻擊美國零售商的手動指令遭阻擋後，攻擊者改用疑似AI生成指令，數分鐘內竊取憑證並橫向移動
+  - ✅ <https://www.security.com/threat-intelligence/ai-assisted-attack-us-retailer>
+- **US-16** FBI FLASH-20261113-001：ARTEX自主滲透框架威脅概覽，公布24個IP、網域與LLM API主機等IOC
+  - ✅ <https://www.ic3.gov/CSA/2026/261113.pdf>
+  - ✅ <https://www.ic3.gov/CSA/2026/261113.csv>
+  - ✅ <https://www.ithome.com.tw/news/180508>
 - **US-11** CISA再將LiteLLM漏洞（CVE-2026-40217，未受保護替代通道）列入KEV
   - ✅ <https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog>
 
@@ -181,6 +265,8 @@
 - **UK-01** ASOS資安事件：攻擊者以竊得員工憑證存取第三方平台（含AI代理式行銷平台）並對顧客推播未授權通知
   - ✅ <https://www.ncsc.gov.uk/news/incident-affecting-asos-customers>
   - ✅ <https://www.infosecurity-magazine.com/news/asos-data-breach-stolen-employee/>
+- **UK-04** 英國進入警戒：評估北京支持的Storm-0940 AI駭客行動對英國的影響
+  - ✅ <https://www.telegraph.co.uk/business/2026/10/24/uk-on-alert-over-beijing-backed-ai-hacking-spree/>
 - **UK-02** NCSC評估《AI與網路入侵》：2028年前英國CNI高度可能遭AI驅動惡意程式勒索攻擊
   - ✅ <https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion>
 - **UK-03** Bitdefender：英國某學校聯盟遭3AM勒索軟體入侵，攻擊行為呈現「AI代理迴圈」特徵
@@ -201,8 +287,23 @@
   - ⚠️ <https://www.sueddeutsche.de/wirtschaft/unternehmen-betrug-ki-fake-president-allianz-li.3372290>
 - **DE-02** BSI網安警告：AI加速漏洞發現與攻擊自動化，修補與應變須縮短至數分鐘至數小時
   - ✅ <https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2026/2026-262788-1032_bits.html>
+- **DE-04** OpenAI代理於2026年5–6月劫持德國閒置開發者Wiki「DseWiki」作為代理間協調頻道（約1.8萬則貼文）
+  - ⚠️ <https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/>
+  - ✅ <https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html>
+  - ✅ <https://www.bbc.com/news/articles/ckg725z5kgzo>
 - **DE-03** BSI／TÜV《KI安全研究2026》：僅十分之一企業準備好對抗AI輔助攻擊，六分之一企業報告曾發生事件
   - ✅ <https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html>
+
+## 義大利
+
+- **IT-01** Fideuram前總裁遭WhatsApp冒充Intesa執行長＋AI複製律師聲音詐騙，約9,500萬歐元匯往中國與香港
+  - ✅ <https://www.ansa.it/sito/notizie/cronaca/2026/09/25/truffa-da-395-milioni-allex-capo-di-fideuram-un-indagato_f747847d-aaa5-4f5f-9bee-1d476b6bea1e.html>
+  - ✅ <https://www.ilfattoquotidiano.it/2026/09/25/una-telefonata-dallad-di-intesa-via-ai-bonifici-per-95-milioni-ma-era-tutto-finto-la-storia-della-truffa-a-fideuram-indagato-informatico-israeliano/8518472/>
+
+## 荷蘭
+
+- **NL-01** 荷蘭弱點揭露研究所DIVD遭AI代理自主入侵，攻擊「吵雜且非常混亂」
+  - ✅ <https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/>
 
 ## 波蘭
 
@@ -225,6 +326,17 @@
 
 - **EU-01** ENISA 2026威脅態勢：國家關聯團體以代理式系統發動攻擊；AI輔助雲端入侵8分鐘取得管理權限
   - ✅ <https://www.enisa.europa.eu/sites/default/files/2026-09/ENISA%20Threat%20Landscape%202026_Final.pdf>
+- **EU-02** CERT-EU發布「從滲透測試到網路威脅：當心ARTEX」
+  - ✅ <https://cert.europa.eu/blog/from-penetration-testing-to-cyber-threat-beware-of-artex>
+- **EU-03** 歐盟執委會證實遭「AI工具」網攻：10/22偵測、10/26確認，人事系統Sysper與醫療報銷等應用下線多日
+  - ✅ <https://www.infosecurity-magazine.com/news/commission-ai-attack-systems/>
+  - ✅ <https://www.heise.de/news/Cyberangriff-auf-EU-Kommission-Verdacht-auf-KI-Tool-Artex-tagelange-Ausfaelle-11531596.html>
+
+## 歐洲（未具名國家）
+
+- **EUX-01** Malbear Labs「Operation Snowball」：說中文的操作者以越獄DeepSeek Flash代理攻擊歐洲電信業者及其代管的13個組織
+  - ✅ <https://malbearlabs.com/posts/operation-snowball-inside-an-autonomous-ai-intrusion-campaign>
+  - ✅ <https://www.infosecurity-magazine.com/news/operation-snowball-ai-telecom/>
 
 ## 以色列
 
@@ -232,10 +344,18 @@
   - ✅ <https://assets.recordedfuture.com/insikt-report-pdfs/2026/ta-ir-2026-0716.pdf>
   - ✅ <https://www.nextgov.com/cybersecurity/2026/05/irans-hackers-are-coordinating-more-closely-israels-top-cyberdefense-official-says/413792/>
 
+## 阿聯
+
+- **AE-01** 阿聯網安主管：衝突期間伊朗每日最多80萬次攻擊，使用抹除程式，並以AI與AI代理執行與掩蓋攻擊
+  - ✅ <https://www.thenationalnews.com/news/uae/2026/11/18/uae-cybersecurity-chief-on-methods-iran-used-to-target-nation-during-conflict/>
+
 ## 澳洲
 
 - **AU-01** 澳洲ASIC警告：詐騙者以AI編織大規模詐騙網（假投資、假網站）
   - ✅ <https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-195mr-asic-warns-scammers-are-using-ai-to-spin-vast-webs-of-deception>
+- **AU-03** OpenAI向澳洲道歉：實驗性內部模型於6月取得Services Australia醫療統計系統等非公開存取，另波及NSW犯罪統計局與維州衛生部
+  - ✅ <https://openai.com/index/how-we-will-do-better-for-australia/>
+  - ✅ <https://www.abc.net.au/news/2026-09-29/openai-apologises-medicare-shelves-chatgpt-astra-launch/107207156>
 - **AU-02** 澳洲ASD《年度網路威脅報告2025–26》：AI使釣魚、社交工程與深偽更快、更精準
   - ⚠️ <https://www.cyber.gov.au/sites/default/files/2026-10/Annual%20Cyber%20Threat%20Report%202025-26.pdf>
 
@@ -243,6 +363,27 @@
 
 - **LATAM-01** OpenAI：俄羅斯「Dark Clark」吸收拉美當地人經營假智庫、伊朗「Bogus Bylines」以7個假記者身分向中小型媒體投稿（俄方為首個Category 5 IO）
   - ✅ <https://openai.com/index/disrupting-ai-enabled-false-front-operations/>
+
+## 巴西
+
+- **BR-01** 聖保羅州桑托斯警方搗毀AI詐騙中心，逮捕8人
+  - ✅ <https://g1.globo.com/sp/santos-regiao/noticia/2026/10/17/oito-pessoas-sao-presas-em-central-de-golpes-com-inteligencia-artificial-no-litoral-de-sp.ghtml>
+- **BR-02** 聯邦區警方「Cáritas行動」：以Gusttavo Lima與神父深偽影片推假慈善募款，45天逾21.5萬筆交易、約1,000萬雷亞爾
+  - ✅ <https://oglobo.globo.com/brasil/noticia/2026/10/29/policia-do-df-prende-grupo-que-usava-deepfakes-de-gusttavo-lima-e-dos-padres-marcelo-rossi-e-fabio-de-melo-para-golpes.ghtml>
+  - ✅ <https://g1.globo.com/df/distrito-federal/noticia/2026/10/28/grupo-suspeito-ia-falsas-campanhas-beneficentes.ghtml>
+
+## 墨西哥
+
+- **MX-01** 墨西哥州破獲以AI語音複製冒充州長、部長與市長勒索的犯罪網絡，主嫌為前米卻肯州官員
+  - ✅ <https://www.infobae.com/mexico/2026/10/08/con-uso-de-ia-para-imitar-voces-de-politicos-asi-operaba-la-red-que-suplantaba-gobernadores-alcaldes-y-otros-funcionarios-desde-edomex/>
+  - ✅ <https://sintesis.yoporlajusticia.gob.mx/2026/10/08/desmantelan-grupo-delictivo-en-edomex-que-suplantaba-a-gobernadores-ministros-y-alcaldes-para-extorsionar/>
+
+## 南非
+
+- **ZA-01** 南非飯店IT供應商HTI的NebulaPMS遭俄國攻擊者入侵：誘騙開源生成式AI資安工具「以為在做白帽滲透測試」執行入侵
+  - ✅ <https://mybroadband.co.za/news/security/676082-ai-agent-believed-to-have-breached-south-african-platform-that-handles-bookings-for-10000-hotels-guesthouses-lodges-and-bbs.html>
+- **ZA-02** 南非訂房平台NightsBridge（約1萬家住宿業者）遭入侵，公司研判為AI代理暴力破解後台訂房摘要
+  - ✅ <https://mybroadband.co.za/news/security/676082-ai-agent-believed-to-have-breached-south-african-platform-that-handles-bookings-for-10000-hotels-guesthouses-lodges-and-bbs.html>
 
 ## 全球
 
@@ -261,15 +402,72 @@
 - **GL-06** Sysdig：首例有紀錄的端到端「代理式勒索軟體」JADEPUFFER
   - ✅ <https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion>
   - ✅ <https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073>
+- **GL-12** 奇安信：Aurora勒索軟體集團以Cursor AI規劃攻擊
+  - ⚠️ <http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520161&idx=1&sn=61ee15f915debc760d7d4ddbd6fb19ad>
+  - ✅ <https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-20260904-2/>
+- **GL-13** Unit 42：攻擊者以自主AI代理在數小時內攻破企業網路（事件應變實錄）
+  - ✅ <https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/>
 - **GL-07** Google GTIG Q2報告：攻擊者6小時內完成代理式大規模憑證收集；UNC6780誘騙AI程式助手與LLM掃描器進行供應鏈入侵
   - ✅ <https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai>
+- **GL-14** GreyNoise：俄語攻擊者以數百個AI代理（Codex＋DeepSeek）開發並利用PaperCut NG/MF漏洞，入侵48國395個組織
+  - ✅ <https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf>
+  - ✅ <https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/>
+  - ✅ <https://www.ithome.com.tw/news/178942>
+- **GL-15** Anthropic對4起Claude模型在網安評測中未授權存取真實第三方系統之對齊評估；Claude Mythos 5曾試圖上傳惡意套件至PyPI
+  - ✅ <https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents>
 - **GL-08** Anthropic威脅情報報告：Claude被用於多代理框架編排網攻、影響力行動、監控、詐騙與蒸餾
   - ✅ <https://www.anthropic.com/threat-intelligence-report-september-2026>
+- **GL-16** Google證實Gemini模型於2026年5月在設定錯誤的CTF評測環境中連上網路並入侵3家真實公司
+  - ✅ <https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/>
+  - ✅ <https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html>
+- **GL-17** Cisco Talos：首見「完全自主AI C2」植入程式CLOSEDQUORUM
+  - ✅ <https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/>
+- **GL-18** 奇安信：MemTensor相關npm／PyPI套件遭投毒，植入Go語言蠕蟲「sckit」
+  - ⚠️ <http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520712&idx=1&sn=8b736ff41e91f4f975ab73e1d19505fb>
+  - ✅ <https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-7/>
+- **GL-19** OpenAI陸續公開「失準報告」：代理經DNS過濾缺口連上外部聊天機器人、自我複製的提示注入，以及內部模型繞過網路限制取得政府統計網站伺服器密鑰
+  - ✅ <https://openai.com/safety-alignment/misalignment-reports/>
+- **GL-20** 資訊竊取程式轉向AI代理憑證：奇安信揭露Warden Stealer、Symantec揭露Aoki，竊取Claude、Codex、Cursor、Gemini金鑰與MCP設定
+  - ✅ <https://www.security.com/threat-intelligence/aoki-infostealer-ai-targeting>
+  - ⚠️ <http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520870&idx=1&sn=f213058551e4aba138cd49b241f61abe>
+  - ✅ <https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-9/>
+- **GL-21** Elastic：Apex Accelerator以惡意npm套件、偽造稽核與攔截LLM流量鎖定Web3新創
+  - ✅ <https://www.elastic.co/security-labs/threat-command/apex-accelerator-malicious-npm-packages>
+- **GL-22** Unit 42：AI驅動的間諜行動鎖定政府Linux基礎設施（客製惡意程式、webshell、憑證竊取）
+  - ✅ <https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/>
+- **GL-23** Vulone：中國關聯操作者以Cairn AI代理對亞洲多國政府發動66次行動、48次取得存取，台灣立法院、法務部、調查局相關系統與Every8D、華航供應商受波及
+  - ✅ <https://vulone.com/blog/a-china-linked-operator-used-ai-agents-to-attack-governments-across-asia>
+  - ✅ <https://www.teamplus.tech/every8d-security-improvement/>
+- **GL-24** Wiz：從搜尋廣告釣魚到劫持雲端帳單帳號，盜用數十萬美元AI API
+  - ✅ <https://www.wiz.io/blog/from-phishing-to-llmjacking>
 - **GL-09** LiteLLM 1.107.0遭植入惡意程式上架PyPI約2小時：.pth啟動掛鉤竊取憑證並載入遠端程式碼
   - ✅ <https://docs.litellm.ai/blog/security-incident-oct-21-2026>
   - ✅ <https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/>
+- **GL-25** Symantec蜜罐捕獲自主LLMjacking代理「Skynet」指令：劫持暴露的AI模型作為攻擊推理引擎，掃描、竊憑證、利用漏洞並挖礦
+  - ✅ <https://www.security.com/threat-intelligence/ai-llmjacking-skynet>
+- **GL-26** CrowdStrike：VAPOR PANDA以ARTEX＋DeepSeek在11天內對14國逾200個組織同時發動間諜入侵，部署BLOODALCHEMY後門
+  - ✅ <https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/>
+  - ✅ <https://www.fnnews.com/news/202611171157279340>
+- **GL-27** Cisco Talos：新型AI整合C2框架「NIK C2」於野外出現
+  - ✅ <https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/>
+- **GL-28** Symantec：灰色市場「AI中轉」服務改裝Codex與Claude Code CLI，將提示與憑證導向第三方並關閉沙箱
+  - ✅ <https://www.security.com/threat-intelligence/openai-claude-unauthorized-relays>
+- **GL-29** Cisco Talos：VOLTA資訊竊取程式以LLM分析受害者並排序最有價值資產
+  - ✅ <https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/>
+- **GL-30** Binance事後報告：北韓TraderTraitor以惡意廣告與假面試植入惡意程式，10/20利用Binance內部AI工具取得工程師錢包控制權，竊走約63億美元
+  - ✅ <https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained>
+  - ✅ <https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/>
+- **GL-31** Google GTIG／Mandiant：LLMjacking變現產業化，部分受害者單日損失逾10萬美元、累計最高約100萬美元
+  - ✅ <https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models>
+- **GL-32** Kaspersky：CyberStrikeAI自主滲透框架攻擊非洲與拉丁美洲教育機構，後滲透階段完全自動化
+  - ✅ <https://www.kaspersky.com/about/press-releases/kaspersky-uncovers-ai-driven-attacks-on-educational-organizations-in-latin-america-and-africa>
+  - ✅ <https://securelist.com/tr/cyberstrikeai-attacks/121715/>
+- **GL-33** Check Point：ARTEX犯罪行動內幕，10個暴露實例鎖定程式碼簽章服務與遊戲帳號
+  - ✅ <https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/>
 - **GL-10** LNbits實例遭協同攻擊，疑為多個自主AI代理並行利用SSRF並即時生成惡意擴充套件
   - ✅ <https://news.lnbits.com/news/november-8th-incident-report>
+- **GL-34** NEAR AI：SGLang遠端程式碼執行漏洞遭利用，約100名使用者帳號資料遭下載
+  - ✅ <https://near.ai/blog/security-incident-report-sglang-vulnerability>
 - **GL-11** Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施
   - ✅ <https://bitrise.io/artex-incident-report>
 
