@@ -1,12 +1,15 @@
 # 2026 年全球 AI 相關資安事件資料庫（ai-security-incidents-2026）
 
-整理 **2026-01-01 至 2026-11-21** 間公開報導的 AI 相關資安事件與重大政府示警，**依國家分類**，以東亞（台灣優先）為重點。全部內容以繁體中文撰寫，標題與摘要為翻譯整理，**保留原始來源連結**。
+> 🧨 **ARTEX 專題（2026-11-22 新增）**：AI 自主滲透框架 ARTEX 的來源、能力、操作者歸因、43 件相關事件（台灣優先）、時間軸、受害產業統計、去武化 IOC、偵測與緩解建議、與 Cairn／CyberStrikeAI／PentAGI／Strix／OpenClaw／Hermes 比較 → **[`artex.md`](artex.md)**
 
-- 收錄事件總數：**149 件**（可信度 高 102 件、中 45 件、低 2 件）
+整理 **2026-01-01 至 2026-11-22** 間公開報導的 AI 相關資安事件與重大政府示警，**依國家分類**，以東亞（台灣優先）為重點。全部內容以繁體中文撰寫，標題與摘要為翻譯整理，**保留原始來源連結**。
+
+- 收錄事件總數：**173 件**（可信度 高 120 件、中 49 件、低 4 件）
 - 完整資料：[`data/events.csv`](data/events.csv)（UTF-8 with BOM，可直接以 Excel 開啟）、[`data/events.json`](data/events.json)
 - 依時間瀏覽：[`timeline.md`](timeline.md)｜所有來源連結與檢查結果：[`sources.md`](sources.md)
-- 資料截止：2026-11-21（台北時間）｜**第二版**：9–11 月深度擴充，新增 65 件（🆕），並補強多筆既有事件（🔄），詳見 [`sep-nov-2026.md`](sep-nov-2026.md)
-- 9–11 月事件共 **107 件**，占全部 72%
+- 資料截止：2026-11-22（台北時間）｜**第三版**：ARTEX 專題，新增 24 件（🧨），資料新增 `framework` 欄位標記涉及之 AI 攻擊框架（確認涉及 ARTEX 者 43 件、疑似 8 件），詳見 [`artex.md`](artex.md)
+- **第二版**：9–11 月深度擴充，新增 65 件（🆕），並補強多筆既有事件（🔄），詳見 [`sep-nov-2026.md`](sep-nov-2026.md)
+- 9–11 月事件共 **131 件**，占全部 76%
 
 ## 國家索引
 
@@ -14,18 +17,18 @@
 
 | # | 國家／地區 | 區域 | 受害／發布 | 歸因來源 | 受波及 | 9–11月新增 | 檔案 |
 |---|---|---|---|---|---|---|---|
-| 1 | **台灣** | 東亞 | 19 | 2 | 2 | 4 | [countries/taiwan](countries/taiwan/README.md) |
-| 2 | **中國** | 東亞 | 12 | 26 | 0 | 4 | [countries/china](countries/china/README.md) |
-| 3 | **日本** | 東亞 | 16 | 0 | 1 | 7 | [countries/japan](countries/japan/README.md) |
-| 4 | **韓國** | 東亞 | 9 | 0 | 3 | 3 | [countries/south-korea](countries/south-korea/README.md) |
+| 1 | **台灣** | 東亞 | 21 | 2 | 2 | 4 | [countries/taiwan](countries/taiwan/README.md) |
+| 2 | **中國** | 東亞 | 14 | 37 | 0 | 4 | [countries/china](countries/china/README.md) |
+| 3 | **日本** | 東亞 | 17 | 0 | 1 | 7 | [countries/japan](countries/japan/README.md) |
+| 4 | **韓國** | 東亞 | 14 | 0 | 4 | 3 | [countries/south-korea](countries/south-korea/README.md) |
 | 5 | **香港** | 東亞 | 2 | 0 | 0 | 0 | [countries/hong-kong](countries/hong-kong/README.md) |
 | 6 | **新加坡** | 東南亞 | 2 | 0 | 0 | 1 | [countries/singapore](countries/singapore/README.md) |
 | 7 | **印尼** | 東南亞 | 1 | 0 | 1 | 0 | [countries/indonesia](countries/indonesia/README.md) |
 | 8 | **越南** | 東南亞 | 0 | 0 | 1 | 0 | [countries/vietnam](countries/vietnam/README.md) |
 | 9 | **泰國** | 東南亞 | 1 | 0 | 0 | 1 | [countries/thailand](countries/thailand/README.md) |
 | 10 | **印度** | 南亞 | 5 | 0 | 1 | 3 | [countries/india](countries/india/README.md) |
-| 11 | **美國** | 北美 | 16 | 1 | 1 | 5 | [countries/united-states](countries/united-states/README.md) |
-| 12 | **加拿大** | 北美 | 1 | 0 | 1 | 0 | [countries/canada](countries/canada/README.md) |
+| 11 | **美國** | 北美 | 20 | 2 | 2 | 5 | [countries/united-states](countries/united-states/README.md) |
+| 12 | **加拿大** | 北美 | 2 | 0 | 1 | 0 | [countries/canada](countries/canada/README.md) |
 | 13 | **英國** | 歐洲 | 4 | 0 | 0 | 1 | [countries/united-kingdom](countries/united-kingdom/README.md) |
 | 14 | **法國** | 歐洲 | 2 | 0 | 0 | 0 | [countries/france](countries/france/README.md) |
 | 15 | **德國** | 歐洲 | 4 | 0 | 0 | 1 | [countries/germany](countries/germany/README.md) |
@@ -43,11 +46,11 @@
 | 27 | **巴西** | 拉丁美洲 | 2 | 0 | 0 | 2 | [countries/brazil](countries/brazil/README.md) |
 | 28 | **墨西哥** | 拉丁美洲 | 1 | 0 | 0 | 1 | [countries/mexico](countries/mexico/README.md) |
 | 29 | **南非** | 非洲 | 2 | 0 | 0 | 1 | [countries/south-africa](countries/south-africa/README.md) |
-| 30 | **全球** | 全球／跨國 | 34 | 0 | 0 | 23 | [countries/global](countries/global/README.md) |
+| 30 | **全球** | 全球／跨國 | 43 | 0 | 0 | 23 | [countries/global](countries/global/README.md) |
 | 31 | **北韓** | 東亞 | 0 | 7 | 0 | 0 | [countries/north-korea](countries/north-korea/README.md) |
 | 32 | **伊朗** | 中東 | 0 | 5 | 0 | 0 | [countries/iran](countries/iran/README.md) |
 | 33 | **巴基斯坦** | 南亞 | 0 | 1 | 0 | 0 | [countries/pakistan](countries/pakistan/README.md) |
-| 34 | **柬埔寨** | 東南亞 | 0 | 2 | 0 | 0 | [countries/cambodia](countries/cambodia/README.md) |
+| 34 | **柬埔寨** | 東南亞 | 0 | 4 | 0 | 0 | [countries/cambodia](countries/cambodia/README.md) |
 | 35 | **菲律賓** | 東南亞 | 0 | 1 | 1 | 0 | [countries/philippines](countries/philippines/README.md) |
 | 36 | **馬來西亞** | 東南亞 | 0 | 1 | 0 | 0 | [countries/malaysia](countries/malaysia/README.md) |
 
@@ -59,10 +62,10 @@
 
 | 類別 | 件數 |
 |---|---|
-| AI代理自動化入侵 | 41 |
-| 政府警示/評估報告 | 27 |
+| AI代理自動化入侵 | 58 |
+| 政府警示/評估報告 | 33 |
 | AI輔助攻擊/惡意程式 | 24 |
-| 針對AI系統/平台的攻擊 | 20 |
+| 針對AI系統/平台的攻擊 | 21 |
 | 深偽詐騙/語音複製 | 17 |
 | AI認知作戰/影響力行動 | 13 |
 | AI供應鏈攻擊 | 7 |
@@ -79,21 +82,21 @@
 | 2026-06 | 5 | █████ |
 | 2026-07 | 5 | █████ |
 | 2026-08 | 5 | █████ |
-| 2026-09 | 24 | ████████████████████████ |
-| 2026-10 | 42 | ██████████████████████████████████████████ |
-| 2026-11 | 41 | █████████████████████████████████████████ |
+| 2026-09 | 26 | ██████████████████████████ |
+| 2026-10 | 51 | ███████████████████████████████████████████████████ |
+| 2026-11 | 54 | ██████████████████████████████████████████████████████ |
 
 ### 被歸因為攻擊來源（含疑似）
 
 | 來源國 | 事件數 |
 |---|---|
-| [中國](countries/china/README.md) | 26 |
+| [中國](countries/china/README.md) | 37 |
 | [俄羅斯](countries/russia/README.md) | 9 |
 | [北韓](countries/north-korea/README.md) | 7 |
 | [伊朗](countries/iran/README.md) | 5 |
+| [柬埔寨](countries/cambodia/README.md) | 4 |
+| [美國](countries/united-states/README.md) | 2 |
 | [台灣](countries/taiwan/README.md) | 2 |
-| [柬埔寨](countries/cambodia/README.md) | 2 |
-| [美國](countries/united-states/README.md) | 1 |
 | [馬來西亞](countries/malaysia/README.md) | 1 |
 | [菲律賓](countries/philippines/README.md) | 1 |
 | [巴基斯坦](countries/pakistan/README.md) | 1 |

@@ -2,9 +2,9 @@
 
 [← 回到總覽](../../README.md)
 
-🆕＝2026-11-21第二版新增（9–11月深度擴充）；🔄＝第二版補充細節。
+🆕＝2026-11-21第二版新增（9–11月深度擴充）；🧨＝2026-11-22第三版新增（ARTEX專題，見[artex.md](../../artex.md)）；🔄＝第二／三版補充細節；`ARTEX`等標籤＝涉及之AI攻擊框架（`ARTEX?`＝同波疑似、未證實）。
 
-本國為主要受害方／發布國之事件：**12 件**；本國為歸因來源之跨國事件：**26 件**；本國受波及之跨國事件：**0 件**。資料期間 2026-01-01 至 2026-11-21，依日期排序。
+本國為主要受害方／發布國之事件：**14 件**；本國為歸因來源之跨國事件：**37 件**；本國受波及之跨國事件：**0 件**。資料期間 2026-01-01 至 2026-11-22，依日期排序。
 
 > ⚠️ 資料限制：中國作為「受害方」的公開資料多為官方示警與年報（CNCERT、CVERC、國安部、360、奇安信），具體受害個案極少公開；9–11月新增之AI中轉站資料外洩僅為研究員自述（低）。中國作為「歸因來源」的事件則大量出現在他國檔案，請見下方交叉引用。
 
@@ -21,9 +21,11 @@
 | CN-09 | 2026-09 | 🆕 CVERC發布《大模型與智能體安全綜合測評報告（2026）》 | 政府警示/評估報告 | 官方對大模型與智能體之綜合安全測評報告（細節見原文） | 中國大模型與智能體開發者、使用者 | —（測評報告） | — | 🟢高 | [cverc.org.cn](https://www.cverc.org.cn/head/jishubaogao/dmxbg2026.htm) |
 | CN-07 | 2026-09-07 | CVERC《網路空間安全態勢分析報告（2026）》：境外APT以AI賦能釣魚攻擊中國軍工、高校；涉AI安全事件2,498件 | AI輔助攻擊/惡意程式 | 境外APT以供應鏈攻擊、AI賦能釣魚、零時差漏洞針對軍工高校、科研院所、軍民融合企業；AI系統本身成攻擊面（提示注入、LiteLLM與OpenClaw投毒） | 中國軍工、高校、科研機構 | 涉AI網安事件2,498件，佔全部事件20.2%（全球統計口徑） | 境外（多國APT） | 🟢高 | [cverc.org.cn](https://www.cverc.org.cn/head/jishubaogao/wlkjaqtsfxbg2026.pdf) |
 | CN-10 | 2026-09-16 | 🆕 研究員稱以「五位數美元」購得中國大型「AI中轉站」約6TB明文呼叫資料，含SSH金鑰、VPN設定與雲端金鑰；微步在線示警中轉站可留存並出售對話與憑證 | 針對AI系統/平台的攻擊 | 大模型API中轉站為計費轉發須終止TLS並讀取明文，可完整留存使用者對話、上傳檔案與憑證；研究員稱資料含SSH金鑰、VPN設定、阿里雲金鑰、GitLab權杖 | 使用中轉站的中國企業（研究員稱可進入華為、小米等19家企業及7家政府／獨聯體機構系統） | 約6TB資料遭出售（研究員自述，未經受害企業確認） | — | 🔴低 | [cn-sec.com](https://cn-sec.com/archives/5434495.html)<br>[chaincatcher.com](https://www.chaincatcher.com/article/2289095)<br>[theblockbeats.info](https://www.theblockbeats.info/flash/366547) |
+| CN-13 | 2026-10-09 | 🧨 `ARTEX` ARTEX中國開發者於工具遭用於攻擊韓國銀行後宣布轉為閉源 | 政府警示/評估報告 | ARTEX（GitHub作者Autumn-27，2026年7月以AGPL-3.0開源）於CrowdStrike 10/7報告後，開發者於10/8將專案轉閉源；資安業者指出此時已有逾1.2萬個fork，各種分支與備份持續流通 | —（工具來源） | 工具已大量擴散，閉源無法回收 | 中國（開發者） | 🟡中 | [zaobao.com.sg](https://www.zaobao.com.sg/news/china/story20261009-9808966)<br>[cn-sec.com](https://cn-sec.com/archives/5418792.html)<br>[wiz.io](https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors) |
 | CN-11 | 2026-11-02 | 🆕 CVERC 10月病毒疫情：AI濫用持續惡化，被用於大規模客製化滲透與批量投遞勒索軟體、竊密木馬 | 政府警示/評估報告 | 攻擊者利用AI大規模客製化滲透，並批量投遞勒索軟體與資訊竊取程式 | 中國網路使用者與組織 | —（月報） | — | 🟢高 | [cverc.org.cn](https://www.cverc.org.cn/yubao/yubao_202610.htm) |
 | CN-08 | 2026-11-05 | 湖南茶陵警方破獲以AI換臉影片破解銀行人臉驗證、為境外詐團洗錢案 | 深偽詐騙/語音複製 | 以AI合成影片繞過銀行人臉識別，經遊戲帳號租賃平台與加密貨幣將贓款轉往境外 | 中國民眾、銀行 | 逮捕2人；挽回損失2萬餘元 | 境外詐騙集團 | 🟡中 | [m.gmw.cn](https://m.gmw.cn/2026-11/05/content_1304582860.htm) |
 | CN-12 | 2026-11-05 | 🆕 外交部回應英國NCSC「中國很可能利用AI進行駭客攻擊」評估：拒絕指控 | 政府警示/評估報告 | 英國NCSC評估稱中國至2028年前極可能以AI強化網攻；中方以例行記者會回應予以否認 | — | —（外交聲明） | 英國（指控方） | 🟡中 | [mfa.gov.cn](https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/jks_674633/jksxwlb_674635/202611/t20261105_12053624.shtml) |
+| CN-14 | 2026-11-06 | 🧨 `ARTEX` 微步在線（ThreatBook）發表ARTEX著作權聲明：稱源自旗下威脅偵測工程師個人專案，ARTEX Pro僅經RedAgents平台銷售 | 政府警示/評估報告 | 聲明指ARTEX為其工程師個人開源專案，公司擁有著作權；並稱商業版ARTEX Pro僅透過其RedAgents平台提供，與外界流通之分支無關 | —（工具來源） | — | 中國（開發者所屬企業） | 🟡中 | [news.10jqka.com.cn](https://news.10jqka.com.cn/20261106/c681570377.shtml) |
 
 ## 事件補充說明
 
@@ -32,8 +34,10 @@
 - **CN-04**：國安部微信公眾號，經新浪轉載
 - **CN-07**：官方報告PDF（2026-09-07產生）
 - **CN-10**：單一研究員自述，受害企業未確認；微步在線分析原刊於微信公眾號（經cn-sec轉載）
+- **CN-13**：CN-SEC技術文章稱ARTEX曾獲百度「Agent+」攻防挑戰賽總冠軍；fork數字出自Wiz與Datadog
 - **CN-08**：光明網轉載株洲警方
 - **CN-12**：官方聲明，非攻擊事件；與UK NCSC評估（英國檔案）對照
+- **CN-14**：企業自述，經同花順財經轉載；未找到CNCERT或其他中國官方針對ARTEX的分析
 
 ## 交叉引用：歸因來源為中國的跨國事件
 
@@ -51,14 +55,19 @@
 | TW-14 | 2026-11-11 | [台灣](../taiwan/README.md) | 資安署：國際AI網攻波及台灣十餘家企業與平台，逾百萬份個資受影響，近半數涉及AI／ARTEX | 中國（香港IP，未正式歸因） | 🟢高 |
 | JP-03 | 2026-02-25 | [日本](../japan/README.md) | OpenAI：中國執法機關相關人員試圖以ChatGPT策劃針對日本首相的隱蔽影響力行動 | 中國 | 🟢高 |
 | JP-13 | 2026-10-19 | [日本](../japan/README.md) | GMO Cybersecurity：相次ぐ不正存取的攻擊源多為AI，確認使用中國開發的ARTEX；單一攻擊源鎖定約20家日本企業 | 中國（工具開發來源；攻擊者未歸因） | 🟢高 |
+| JP-17 | 2026-10-23 | [日本](../japan/README.md) | 趨勢科技：不只ARTEX——日本遭攻擊的三套攻擊基盤中，一套以44個代理的CyberStrikeAI全程自動化攻擊至少19個組織（16個在日本） | 中國（簡體中文控制台，未正式歸因） | 🟢高 |
 | KR-02 | 2026-10-07 | [韓國](../south-korea/README.md) | CrowdStrike：未具名攻擊者以中國開發的ARTEX代理框架＋Claude Code攻擊韓國金融機構並外洩資料 | 中國（說中文者，可能位於廣東；中度信心） | 🟢高 |
 | KR-08 | 2026-10-14 | [韓國](../south-korea/README.md) | 金融委員會／金融監督院第二次緊急會議：16家金融公司遭駭、約10萬筆外洩；555家點檢中130家有缺失 | 中國（說中文者；同一AI工具攻擊者，非正式歸因） | 🟡中 |
+| KR-13 | 2026-11-04 | [韓國](../south-korea/README.md) | Hunt.io：自開放目錄揭露韓國銀行攻擊的香港跳板伺服器，含Claude Code設定、模型路由shim與19個代理技能 | 中國（說中文，Recorded Future稱TAG-217） | 🟢高 |
+| KR-14 | 2026-11-22 | [韓國](../south-korea/README.md) | S2W：攻擊者「KimJEN」入侵國內約20所大學研究行政／會計系統，外洩檔案留有ARTEX及其衍生工具Prtseek痕跡 | 未歸因（工具與中國駭客社群相關；攻擊者自稱歐洲籍） | 🟡中 |
 | IN-05 | 2026-11-05 | [印度](../india/README.md) | CERT-In命名「Crafty Falcon」：以ARTEX、PentAGI、Cairn、CyberStrikeAI以「機器速度」入侵印度非銀行放貸、金融科技與加密貨幣交易所 | 中國（工具來源；攻擊者未歸因） | 🟡中 |
 | US-02 | 2026-06 | [美國](../united-states/README.md) | OpenAI 6月報告：中國來源帳號以ChatGPT生成內容，操弄美國AI資料中心與科技關稅議題（Data Center Bandwagon／Tech and Tariffs） | 中國 | 🟢高 |
 | US-07 | 2026-10-20 | [美國](../united-states/README.md) | NorForge／路透：說中文的駭客以Cairn等自主AI代理攻擊逾1,200個網站，入侵逾百家公司（含Deere、SharkNinja、Cummins） | 中國（說中文的犯罪者） | 🟡中 |
 | US-08 | 2026-10-21 | [美國](../united-states/README.md) | Microsoft：中國國家關聯Storm-0940以ARTEX代理框架自動化攻擊數百組織，並造成ConnectWise供應鏈入侵 | 中國（國家關聯：Storm-0940） | 🟢高 |
+| US-17 | 2026-10-22 | [美國](../united-states/README.md) | Wiz：ARTEX使用者（重疊Storm-0940）擴大鎖定IT與軟體供應商，攻擊Okta、Entra與Cognito | 中國（國家關聯；與微軟Storm-0940重疊） | 🟢高 |
 | US-14 | 2026-11-12 | [美國](../united-states/README.md) | Unit 42：CL-STA-1238以客製化Cairn自主攻擊框架對至少19個組織發動25次行動，10個成功（半導體、美國國防政策、人權團體） | 中國（國家關聯，中度信心：CL-STA-1238） | 🟢高 |
 | US-16 | 2026-11-13 | [美國](../united-states/README.md) | FBI FLASH-20261113-001：ARTEX自主滲透框架威脅概覽，公布24個IP、網域與LLM API主機等IOC | 中國（工具開發來源；多個使用者） | 🟢高 |
+| CA-02 | 2026-10-21 | [加拿大](../canada/README.md) | 加拿大網安中心網路威脅快報：代理式AI加速網路攻擊（Storm-0940／ARTEX） | 中國（國家關聯Storm-0940，引述微軟） | 🟢高 |
 | UK-04 | 2026-10-24 | [英國](../united-kingdom/README.md) | 英國進入警戒：評估北京支持的Storm-0940 AI駭客行動對英國的影響 | 中國（國家關聯：Storm-0940） | 🟡中 |
 | EUX-01 | 2026-11-10 | [歐洲（未具名國家）](../europe-unnamed/README.md) | Malbear Labs「Operation Snowball」：說中文的操作者以越獄DeepSeek Flash代理攻擊歐洲電信業者及其代管的13個組織 | 中國（說中文的操作者；Malbear研判） | 🟡中 |
 | GL-02 | 2026-02-12 | [全球](../global/README.md) | Google GTIG AI威脅追蹤：模型蒸餾（model extraction）攻擊增加，國家級駭客以Gemini做偵察與釣魚誘餌 | 北韓、伊朗、中國、俄羅斯 | 🟢高 |
@@ -66,5 +75,11 @@
 | GL-07 | 2026-09-08 | [全球](../global/README.md) | Google GTIG Q2報告：攻擊者6小時內完成代理式大規模憑證收集；UNC6780誘騙AI程式助手與LLM掃描器進行供應鏈入侵 | 北韓、中國、伊朗、俄羅斯等 | 🟢高 |
 | GL-08 | 2026-09-10 | [全球](../global/README.md) | Anthropic威脅情報報告：Claude被用於多代理框架編排網攻、影響力行動、監控、詐騙與蒸餾 | 中國、北韓等（多個疑似國家支持團體） | 🟢高 |
 | GL-23 | 2026-10-19 | [全球](../global/README.md) | Vulone：中國關聯操作者以Cairn AI代理對亞洲多國政府發動66次行動、48次取得存取，台灣立法院、法務部、調查局相關系統與Every8D、華航供應商受波及 | 中國（說中文、財務動機的單一操作者；Vulone研判） | 🟡中 |
+| GL-35 | 2026-10-21 | [全球](../global/README.md) | Zscaler ThreatLabz：韓國金融攻擊者的ARTEX環境揭示全球多產業攻擊，結合Claude Code、Codex與Grok工作區 | 中國（說中文的操作者） | 🟢高 |
 | GL-26 | 2026-10-29 | [全球](../global/README.md) | CrowdStrike：VAPOR PANDA以ARTEX＋DeepSeek在11天內對14國逾200個組織同時發動間諜入侵，部署BLOODALCHEMY後門 | 中國（國家關聯：VAPOR PANDA） | 🟢高 |
+| GL-36 | 2026-10-30 | [全球](../global/README.md) | Google GTIG／Mandiant「ARTEX and Friends」：代理式攻擊框架登場，UNC7228最快15分鐘取得深層存取 | 中國（UNC7228與Storm-0940重疊）；另有財務動機勒索者 | 🟢高 |
+| GL-37 | 2026-11-05 | [全球](../global/README.md) | Censys：全球1,465個暴露ARTEX控制台（約815個獨立主機），155個同時託管其他威脅基礎設施 | 未歸因（多數控制台位於美國、香港、中國） | 🟢高 |
+| GL-40 | 2026-11-10 | [全球](../global/README.md) | Sophos X-Ops：少數客戶出現與ARTEX相符活動，發布檢測名稱、IPS特徵與主機狩獵指標 | 中國（引述微軟Storm-0940） | 🟢高 |
+| GL-41 | 2026-11-13 | [全球](../global/README.md) | Amazon威脅情報：MadPot蜜罐擷取ARTEX代理作戰記憶，揭露工業規模AI憑證竊取與加密貨幣交易所深偽KYC繞過 | 中國關聯（中度信心，多個不同群體） | 🟢高 |
+| GL-42 | 2026-11-13 | [全球](../global/README.md) | SentinelOne：ARTEX解密——至少5個行動者／群集、每次行動模型成本約145–1,500美元 | 中國關聯；柬埔寨（Storm-3358）等至少5個行動者 | 🟢高 |
 
