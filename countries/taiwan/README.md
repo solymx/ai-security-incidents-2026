@@ -2,9 +2,9 @@
 
 [← 回到總覽](../../README.md)
 
-🆕＝2026-11-21第二版新增（9–11月深度擴充）；🧨＝2026-11-22第三版新增（ARTEX專題，見[artex.md](../../artex.md)）；🔄＝第二／三版補充細節；`ARTEX`等標籤＝涉及之AI攻擊框架（`ARTEX?`＝同波疑似、未證實）。
+🆕＝2026-11-21第二版新增（9–11月深度擴充）；🧨＝2026-11-22第三版新增（ARTEX專題，見[artex.md](../../artex.md)）；🧠＝2026-11-24第四版新增（AI模型專題，見[models.md](../../models.md)）；🔄＝第二／三版補充細節；`ARTEX`等標籤＝涉及之AI攻擊框架（`ARTEX?`＝同波疑似、未證實）。
 
-本國為主要受害方／發布國之事件：**21 件**；本國為歸因來源之跨國事件：**2 件**；本國受波及之跨國事件：**2 件**。資料期間 2026-01-01 至 2026-11-22，依日期排序。
+本國為主要受害方／發布國之事件：**21 件**；本國為歸因來源之跨國事件：**3 件**；本國受波及之跨國事件：**2 件**。資料期間 2026-01-01 至 2026-11-22，依日期排序。
 
 > ⚠️ 資料限制：9–11月已逐週檢視資安署、國安局、調查局、刑事局／警政署、iThome與中央社；部分廠商研究（Vulone、GreyNoise）點名之台灣受害機關未見官方證實，標示為中可信度。
 
@@ -17,7 +17,7 @@
 | TW-03 | 2026-02-15 | 刑事局警示：詐團以深偽／AI生成名人影像與聲音推薦投資（AI偽冒名人報牌） | 深偽詐騙/語音複製 | 以深偽或AI生成技術偽造知名企業家、財經名人、股票分析師的影像與聲音，在臉書、IG、YouTube、LINE投放廣告，引導加LINE群組、下載假投資APP | 台灣網路使用者 | 114年全年通報下架逾8萬則詐騙廣告（非全屬AI深偽，未單獨統計） | — | 🟢高 | [cib.npa.gov.tw](https://www.cib.npa.gov.tw/ch/app/news/view?id=1887&module=news&serno=2ada7b37-da8a-44cf-851e-f0e8efa8240e) |
 | TW-04 | 2026-03-25 | 資安署警示：AI代理（OpenClaw「龍蝦」）成資安破口，提出五項防護 | 政府警示/評估報告 | AI代理具高權限與24小時自主運作；風險含外部網頁藏惡意指令（間接提示注入）、第三方Skill技能包藏惡意程式、長時間運作記憶壓縮遺失安全規則；引述ClawJacked漏洞CVE-2026-25253 | 導入AI代理的機關、企業與個人 | —（警示） | — | 🟢高 | [moda.gov.tw](https://moda.gov.tw/ACS/press/news/press/19294) |
 | TW-05 | 2026-04-06 | 🔄 國安局向立法院報告：中共結合AI深偽、假民調與爭議訊息干擾九合一選舉 | AI認知作戰/影響力行動 | 預判中共以AI深偽造假影音、假民調、爭議訊息介入2026年11月地方選舉 | 台灣選舉與選民 | 2026年1–3月蒐獲異常帳號1萬3,000餘組、爭議訊息86萬餘則；政府服務網（GSN）第1季遭侵擾約1億7,328萬次 | 中國 | 🟢高 | [ppg.ly.gov.tw](https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2026033105/84201600173026605003.pdf)<br>[cna.com.tw](https://www.cna.com.tw/news/aipl/202604060105.aspx) |
-| TW-06 | 2026-08-13 | `OpenClaw/Hermes` 境外駭客以AI代理（OpenClaw／Hermes）「近乎自主」攻擊台灣政府機關，並擴及核安機關與能源業 | AI代理自動化入侵 | 以開源Hermes與OpenClaw建構多代理攻擊框架，7/1–7/4共12波；反編譯政府入口網站JS取出API端點、OAuth/Keycloak設定，繪出21個系統SSO架構；找到免驗證API、AI破解CAPTCHA、依員工編號規律密碼噴灑；再平行掃描IT供應商、核安機關、7家以上能源業者 | 台灣政府機關（含核安機關）、政府IT供應商、能源業者 | 據Dream報告：破解85個政府帳號、外洩逾2,564筆人事資料、7組SSO client secret、6組資料庫憑證；數發部稱受影響單位已完成處置 | 中國（疑似，未正式歸因） | 🟢高 | [moda.gov.tw](https://moda.gov.tw/ACS/press/news/press/20394)<br>[ithome.com.tw](https://www.ithome.com.tw/news/178105)<br>[theregister.com](https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055) |
+| TW-06 | 2026-08-13 | 🔄 `OpenClaw/Hermes` 境外駭客以AI代理（OpenClaw／Hermes）「近乎自主」攻擊台灣政府機關，並擴及核安機關與能源業 | AI代理自動化入侵 | 以開源Hermes與OpenClaw建構多代理攻擊框架，7/1–7/4共12波；反編譯政府入口網站JS取出API端點、OAuth/Keycloak設定，繪出21個系統SSO架構；找到免驗證API、AI破解CAPTCHA、依員工編號規律密碼噴灑；再平行掃描IT供應商、核安機關、7家以上能源業者 | 台灣政府機關（含核安機關）、政府IT供應商、能源業者 | 據Dream報告：破解85個政府帳號、外洩逾2,564筆人事資料、7組SSO client secret、6組資料庫憑證；數發部稱受影響單位已完成處置 | 中國（疑似，未正式歸因） | 🟢高 | [moda.gov.tw](https://moda.gov.tw/ACS/press/news/press/20394)<br>[ithome.com.tw](https://www.ithome.com.tw/news/178105)<br>[theregister.com](https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055)<br>[csoonline.com](https://www.csoonline.com/article/4209210/ai-agents-wage-near-autonomous-cyberattack-on-asian-government-networks.html) |
 | TW-07 | 2026-08-25 | TeamT5：中國國家級駭客導入DeepSeek等開源AI後攻擊量倍增，並用於攻擊台灣企業 | AI輔助攻擊/惡意程式 | Grimfengxi以DeepSeek生成漏洞利用程式；Huapi疑以DeepSeek攻擊台灣某公司電子郵件系統；Teleboyi蒐集1,000個IP並梳理網域；Slime22以Claude Code在台灣科技公司內橫向移動；CyCraft另觀察到以ChatGPT協助解密Signal資料庫 | 台灣企業（未具名）等 | 攻擊數量增加一倍以上（TeamT5說法，未公布基準） | 中國 | 🟡中 | [ctee.com.tw](https://www.ctee.com.tw/news/20260825701003-430804)<br>[zaobao.com.sg](https://www.zaobao.com.sg/news/china/story20260825-9569718)<br>[ithome.com.tw](https://www.ithome.com.tw/news/178135) |
 | TW-08 | 2026-09-02 | 🔄 刑事局破獲「AI變聲」假交友詐欺集團：被害逾2萬人、詐得逾9億元 | 深偽詐騙/語音複製 | 詐團以美女照片經營交友帳號，工程師設計AI變聲軟體偽裝女聲，誘使被害人購物、贈禮、付費 | 台灣民眾（逾2萬人） | 犯罪所得逾新台幣9億元；起訴57人，查扣現金、超跑，扣押不動產與帳戶約3億元 | — | 🟢高 | [cib.npa.gov.tw](https://www.cib.npa.gov.tw/ch/app/news/view?id=1885&module=news&serno=2c6a4aa9-93d3-480b-a528-575268edbe28)<br>[news.pts.org.tw](https://news.pts.org.tw/article/825232)<br>[ettoday.net](https://www.ettoday.net/news/20260902/3230115.htm) |
 | TW-09 | 2026-09-10 | 彰化縣長參選人陳素月遭AI深偽影片抹黑並付費投放廣告，競總報案 | AI認知作戰/影響力行動 | 以AI深偽變造影片，使候選人說出未曾說過的話，並透過社群付費廣告擴散 | 選舉候選人、選民 | —（報案階段，未公布散布規模） | — | 🟡中 | [cna.com.tw](https://www.cna.com.tw/news/aloc/202609100196.aspx) |
@@ -31,7 +31,7 @@
 | TW-17 | 2026-11-06 | 🆕 高雄市警破獲38歲男子「透過AI學習」建置自動化網路攻擊系統，入侵網站後台竊取23萬餘筆個資販售 | AI輔助攻擊/惡意程式 | 嫌犯透過AI學習程式撰寫與網路架設，整合電腦與雲端儲存建置自動化網路攻擊系統，非法侵入網站後台竊取會員與客戶資料，於暗網兜售（含台、港、泰個資） | 台灣等地網站會員與客戶 | 23萬餘筆個資遭竊；10月搜索到案，依妨害電腦使用罪移送高雄地檢 | — | 🟢高 | [pbs.npa.gov.tw](https://www.pbs.npa.gov.tw/ch/app/data/view?id=18740&module=wg183&serno=1f102e1b-90e4-4126-b29d-c6f726478736) |
 | TW-14 | 2026-11-11 | 🔄 `ARTEX` 資安署：國際AI網攻波及台灣十餘家企業與平台，逾百萬份個資受影響，近半數涉及AI／ARTEX | AI代理自動化入侵 | 境外駭客自7月以AI代理工具攻擊政府，近期擴及電商、網路商店；利用PHP、Node.js、GitLab已知高風險漏洞（部分列KEV）及高權限API；部分攻擊流量來自香港IP與多國跳板；同波攻擊亦衝擊日、韓。資安署宣布72小時內五項因應措施，資安院並導入4套美國AI資安模型協防 | 台灣十餘家企業與網路平台（官方未公布名單） | 逾100萬份個資（姓名、電話、Email、訂單），尚無付款資訊外洩、未見勒索；資料於暗網販售；規模較大者五、六家 | 中國（香港IP，未正式歸因） | 🟢高 | [moda.gov.tw](https://moda.gov.tw/ACS/press/news/press/21422)<br>[ec.ltn.com.tw](https://ec.ltn.com.tw/article/breakingnews/5637709)<br>[taipeitimes.com](https://www.taipeitimes.com/News/taiwan/archives/2026/11/12/2003867610)<br>[informationsecurity.com.tw](https://www.informationsecurity.com.tw/article/article_detail.aspx?aid=13486)<br>[ai.ettoday.net](https://ai.ettoday.net/news/3270502)<br>[ec.ltn.com.tw](https://ec.ltn.com.tw/article/breakingnews/5637092) |
 | TW-15 | 2026-11-11 | 🔄 警政署：選舉深偽假訊息已偵處219件，134件176人移送 | AI認知作戰/影響力行動 | AI生成深偽影音模仿候選人聲音與影像，於Facebook、Threads、YouTube與通訊群組散布；警方以AI深偽檢測與數位鑑識查處 | 2026年九合一選舉候選人與選民 | 219件偵處、134件176人移送（含一般假訊息，非全屬深偽） | — | 🟢高 | [npa.gov.tw](https://www.npa.gov.tw/ch/app/news/view?id=2139&module=news&serno=fb675956-bf2e-424a-8955-af9657c1b0b0)<br>[taipeitimes.com](https://www.taipeitimes.com/News/taiwan/archives/2026/11/12/2003867622)<br>[moi.gov.tw](https://www.moi.gov.tw/News_Content.aspx?n=4&s=342941) |
-| TW-18 | 2026-11-16 | 🆕 調查局破獲駭客以「BOSSAI」AI代理自動化攻擊系統入侵中央與地方消防救護派遣系統，販售OHCA救護資訊予殯葬業者 | AI代理自動化入侵 | 張、林、李姓3名駭客自2026年4月起經境外VPS跳板架設「BOSSAI」AI自動化攻擊系統，以多個AI Agent攻擊救災救護勤務派遣系統，竊取OHCA（到院前心肺功能停止）等派遣資訊 | 台灣中央與地方消防機關、民眾與往生者家屬 | 11/12–13搜索8處、查扣電腦手機；林、張2人遭羈押 | 台灣（國內駭客，經境外VPS跳板） | 🟢高 | [mjib.gov.tw](https://www.mjib.gov.tw/news/Details/1/1227) |
+| TW-18 | 2026-11-16 | 🆕 🔄 `Hermes/OpenClaw/CyberStrikeAI/HexStrike AI` 調查局破獲駭客以「BOSSAI」AI代理自動化攻擊系統入侵中央與地方消防救護派遣系統，販售OHCA救護資訊予殯葬業者 | AI代理自動化入侵 | 張、林、李姓3名駭客自2026年4月起經境外VPS跳板架設「BOSSAI」AI自動化攻擊系統，以多個AI Agent攻擊救災救護勤務派遣系統，竊取OHCA（到院前心肺功能停止）等派遣資訊 | 台灣中央與地方消防機關、民眾與往生者家屬 | 11/12–13搜索8處、查扣電腦手機；林、張2人遭羈押 | 台灣（國內駭客，經境外VPS跳板） | 🟢高 | [mjib.gov.tw](https://www.mjib.gov.tw/news/Details/1/1227)<br>[acronis.com](https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/) |
 | TW-19 | 2026-11-19 | 🆕 資安署研擬《政府機關AI資通安全參考指引》，預計明年初發布 | 政府警示/評估報告 | 涵蓋LLM與AI Agent在設計、開發、部署及營運各階段的資安控制措施，參考五眼聯盟與OWASP規範；因應AI代理攻擊浪潮 | 台灣政府機關 | —（政策） | — | 🟡中 | [ec.ltn.com.tw](https://ec.ltn.com.tw/article/breakingnews/5646038)<br>[money.udn.com](https://money.udn.com/money/story/7307/9888799)<br>[taipeitimes.com](https://www.taipeitimes.com/News/taiwan/archives/2026/11/20/2003868075) |
 
 ## 事件補充說明
@@ -53,7 +53,7 @@
 - **TW-17**：警察廣播電臺（警政署）發布；與刑事局科技犯罪防制中心共組專案
 - **TW-14**：另有報導（聯合報11/12）引述「8800萬筆」、中央社轉述「約800萬筆」，與記者會「逾百萬份」不一致，本資料採官方記者會說法；資安院依鑑識結果提出三項緊急措施：①下線閒置系統與不必要對外連線（或暫時限制國際連線）②強制登出所有帳號並要求員工改密碼③監控資料庫存取、阻擋異常大量讀取
 - **TW-15**：內政部11/04新聞稿：截至10月底已偵處184件、移送112件153人；11/11更新為219件、134件176人
-- **TW-18**：調查局新聞稿；桃園地檢署指揮偵辦
+- **TW-18**：調查局新聞稿；桃園地檢署指揮偵辦；Acronis TRU（11/04）報告同名BOSSAI、亦鎖定台灣緊急救護服務（與調查局案是否同一人未經官方確認）：單一操作者以12個AI代理組成BOSSAI網格（建構：Grok、OpenClaw、Claude Code、Codex；攻擊：Hermes、Cursor、Trae、CyberStrike），攻擊11國數百個組織
 - **TW-19**：媒體報導；正式文件尚未公布
 
 ## 交叉引用：涉及台灣的跨國／他國事件
@@ -73,4 +73,5 @@
 |---|---|---|---|---|---|
 | JP-01 | 2026-01-29 | [日本](../japan/README.md) | 台日馬警方合作破獲以「AI換臉」假冒日本警察的視訊詐騙機房 | 台灣（詐團主嫌）、馬來西亞（機房所在地） | 🟡中 |
 | HK-02 | 2026-04-22 | [香港](../hong-kong/README.md) | 刑事局破獲台中詐欺機房以「AI視訊」假冒大陸公安與檢察官詐騙香港民眾 | 台灣（機房所在地） | 🟢高 |
+| GL-48 | 2026-11-12 | [全球](../global/README.md) | CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀 | 台灣（操作者時區Asia/Taipei、繁中註解，未正式歸因） | 🟢高 |
 

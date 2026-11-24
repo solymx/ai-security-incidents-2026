@@ -22,6 +22,7 @@
   - ✅ <https://moda.gov.tw/ACS/press/news/press/20394>
   - ✅ <https://www.ithome.com.tw/news/178105>
   - ✅ <https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055>
+  - ✅ <https://www.csoonline.com/article/4209210/ai-agents-wage-near-autonomous-cyberattack-on-asian-government-networks.html>
 - **TW-07** TeamT5：中國國家級駭客導入DeepSeek等開源AI後攻擊量倍增，並用於攻擊台灣企業
   - ✅ <https://www.ctee.com.tw/news/20260825701003-430804>
   - ✅ <https://www.zaobao.com.sg/news/china/story20260825-9569718>
@@ -75,6 +76,7 @@
   - ✅ <https://www.moi.gov.tw/News_Content.aspx?n=4&s=342941>
 - **TW-18** 調查局破獲駭客以「BOSSAI」AI代理自動化攻擊系統入侵中央與地方消防救護派遣系統，販售OHCA救護資訊予殯葬業者
   - ✅ <https://www.mjib.gov.tw/news/Details/1/1227>
+  - ✅ <https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/>
 - **TW-19** 資安署研擬《政府機關AI資通安全參考指引》，預計明年初發布
   - ✅ <https://ec.ltn.com.tw/article/breakingnews/5646038>
   - ✅ <https://money.udn.com/money/story/7307/9888799>
@@ -417,6 +419,8 @@
 
 - **LATAM-01** OpenAI：俄羅斯「Dark Clark」吸收拉美當地人經營假智庫、伊朗「Bogus Bylines」以7個假記者身分向中小型媒體投稿（俄方為首個Category 5 IO）
   - ✅ <https://openai.com/index/disrupting-ai-enabled-false-front-operations/>
+- **LATAM-02** Straiker：CyberCartel以PentAGI為基礎的多代理系統CARLIY0S，串接Claude、Grok與Kimi攻擊逾400家拉美銀行與支付業者
+  - ✅ <https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks>
 
 ## 巴西
 
@@ -453,9 +457,15 @@
 - **GL-05** Five Eyes網安機關聯合聲明：AI已加速攻擊、縮短漏洞發現到利用時間，領導層須立即行動
   - ✅ <https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement>
   - ✅ <https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now>
+- **GL-44** Cybernews：俄國駭客以HexStrike AI＋Claude入侵旅宿訂房平台，暴露逾210萬筆Email
+  - ✅ <https://cybernews.com/security/claude-ai-exploited-breach-hotel-booking-platforms/>
 - **GL-06** Sysdig：首例有紀錄的端到端「代理式勒索軟體」JADEPUFFER
   - ✅ <https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion>
   - ✅ <https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073>
+- **GL-45** Unit 42：說中文的knaithe／KnYuan以Hermes Agent＋DeepSeek為自主攻擊操作員，利用7個漏洞並經Telegram指揮
+  - ✅ <https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/>
+- **GL-46** Anthropic《Detecting and countering misuse of AI: September 2026》：多個行動者以公開代理攻擊框架（如PentAGI）搭配Claude自動化攻擊，帳號已封禁
+  - ✅ <https://www.anthropic.com/threat-intelligence-report-september-2026>
 - **GL-12** 奇安信：Aurora勒索軟體集團以Cursor AI規劃攻擊
   - ⚠️ <http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520161&idx=1&sn=61ee15f915debc760d7d4ddbd6fb19ad>
   - ✅ <https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-20260904-2/>
@@ -534,6 +544,10 @@
   - ✅ <https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai>
 - **GL-34** NEAR AI：SGLang遠端程式碼執行漏洞遭利用，約100名使用者帳號資料遭下載
   - ✅ <https://near.ai/blog/security-incident-report-sglang-vulnerability>
+- **GL-47** Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密
+  - ✅ <https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/>
+- **GL-48** CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀
+  - ✅ <https://www.countercraftsec.com/blog/openclaw-malware-ai-agent-attack/>
 - **GL-11** Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施
   - ✅ <https://bitrise.io/artex-incident-report>
 - **GL-41** Amazon威脅情報：MadPot蜜罐擷取ARTEX代理作戰記憶，揭露工業規模AI憑證竊取與加密貨幣交易所深偽KYC繞過

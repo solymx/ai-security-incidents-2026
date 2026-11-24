@@ -46,21 +46,23 @@
 - **2026-05-11**｜[美國](countries/united-states/README.md)｜US-01｜Google GTIG：首次發現攻擊者以AI發掘並武器化零時差漏洞（開源網站管理工具2FA繞過）（AI輔助攻擊/惡意程式；可信度高）
 - **2026-05-14**｜[新加坡](countries/singapore/README.md)｜SG-01｜新加坡警方警示：詐騙者以深偽Zoom會議冒充總理黃循財與內閣秘書，受害者被騙至少490萬新幣（深偽詐騙/語音複製；可信度高）
 
-## 2026-06（5 件）
+## 2026-06（6 件）
 
 - **2026-06**｜[日本](countries/japan/README.md)｜JP-04｜千葉縣警逮捕以AI生成程式碼組成勒索軟體的19歲男子（AI輔助攻擊/惡意程式；可信度高）
 - **2026-06**｜[美國](countries/united-states/README.md)｜US-02｜OpenAI 6月報告：中國來源帳號以ChatGPT生成內容，操弄美國AI資料中心與科技關稅議題（Data Center Bandwagon／Tech and Tariffs）（AI認知作戰/影響力行動；可信度高）
 - **2026-06**｜[南非](countries/south-africa/README.md)｜ZA-01｜🆕 南非飯店IT供應商HTI的NebulaPMS遭俄國攻擊者入侵：誘騙開源生成式AI資安工具「以為在做白帽滲透測試」執行入侵（AI代理自動化入侵；可信度低）
 - **2026-06-22**｜[德國](countries/germany/README.md)｜DE-02｜BSI網安警告：AI加速漏洞發現與攻擊自動化，修補與應變須縮短至數分鐘至數小時（政府警示/評估報告；可信度高）
 - **2026-06-22**｜[全球](countries/global/README.md)｜GL-05｜Five Eyes網安機關聯合聲明：AI已加速攻擊、縮短漏洞發現到利用時間，領導層須立即行動（政府警示/評估報告；可信度高）
+- **2026-06-23**｜[全球](countries/global/README.md)｜GL-44｜🧠 Cybernews：俄國駭客以HexStrike AI＋Claude入侵旅宿訂房平台，暴露逾210萬筆Email（AI代理自動化入侵；可信度中）
 
-## 2026-07（5 件）
+## 2026-07（6 件）
 
 - **2026-07**｜[日本](countries/japan/README.md)｜JP-05｜警視廳逮捕以生成式AI修改攻擊程式、強制註銷影音平台4.68萬帳號的15歲高中生（AI輔助攻擊/惡意程式；可信度高）
 - **2026-07-02**｜[全球](countries/global/README.md)｜GL-06｜Sysdig：首例有紀錄的端到端「代理式勒索軟體」JADEPUFFER（AI代理自動化入侵；可信度高）
 - **2026-07-16**｜[美國](countries/united-states/README.md)｜US-03｜Hugging Face揭露生產環境遭「端到端自主AI代理」入侵（惡意資料集觸發程式碼執行）（針對AI系統/平台的攻擊；可信度高）
 - **2026-07-16**｜[以色列](countries/israel/README.md)｜IL-01｜Recorded Future：AI強化伊朗在2026年衝突中的非對稱作戰（釣魚、假訊息、影響力行動）（AI認知作戰/影響力行動；可信度高）
 - **2026-07-30**｜[韓國](countries/south-korea/README.md)｜KR-01｜科技部／KISA《2026上半年網路威脅動向》：生成式AI與AI代理擴大攻擊面，提示注入、權限濫用成新威脅（政府警示/評估報告；可信度高）
+- **2026-07-30**｜[全球](countries/global/README.md)｜GL-45｜🧠 Unit 42：說中文的knaithe／KnYuan以Hermes Agent＋DeepSeek為自主攻擊操作員，利用7個漏洞並經Telegram指揮（AI代理自動化入侵；可信度高）
 
 ## 2026-08（5 件）
 
@@ -70,10 +72,11 @@
 - **2026-08-19**｜[美國](countries/united-states/README.md)｜US-04｜CISA等聯合通報AA26-231A：攻擊者以AI生成腳本鎖定網際網路暴露的Siemens S7 PLC（AI輔助攻擊/惡意程式；可信度高）
 - **2026-08-25**｜[台灣](countries/taiwan/README.md)｜TW-07｜TeamT5：中國國家級駭客導入DeepSeek等開源AI後攻擊量倍增，並用於攻擊台灣企業（AI輔助攻擊/惡意程式；可信度中）
 
-## 2026-09（26 件）
+## 2026-09（27 件）
 
 - **2026-09**｜[中國](countries/china/README.md)｜CN-09｜🆕 CVERC發布《大模型與智能體安全綜合測評報告（2026）》（政府警示/評估報告；可信度高）
 - **2026-09**｜[歐盟](countries/eu/README.md)｜EU-01｜ENISA 2026威脅態勢：國家關聯團體以代理式系統發動攻擊；AI輔助雲端入侵8分鐘取得管理權限（政府警示/評估報告；可信度高）
+- **2026-09**｜[全球](countries/global/README.md)｜GL-46｜🧠 Anthropic《Detecting and countering misuse of AI: September 2026》：多個行動者以公開代理攻擊框架（如PentAGI）搭配Claude自動化攻擊，帳號已封禁（政府警示/評估報告；可信度高）
 - **2026-09-01**｜[全球](countries/global/README.md)｜GL-12｜🆕 奇安信：Aurora勒索軟體集團以Cursor AI規劃攻擊（AI輔助攻擊/惡意程式；可信度中）
 - **2026-09-02**｜[台灣](countries/taiwan/README.md)｜TW-08｜刑事局破獲「AI變聲」假交友詐欺集團：被害逾2萬人、詐得逾9億元（深偽詐騙/語音複製；可信度高）
 - **2026-09-02**｜[美國](countries/united-states/README.md)｜US-05｜CISA將LiteLLM MCP認證繞過漏洞（CVE-2026-59822）列入已遭利用漏洞清單KEV（針對AI系統/平台的攻擊；可信度高）
@@ -99,7 +102,7 @@
 - **2026-09-29**｜[加拿大](countries/canada/README.md)｜CA-01｜加拿大網安中心：聯邦政府網站遭可疑活動（含疑似AI代理）掃描；追蹤ARTEX、CyberStrikeAI、PentAGI等AI攻擊工具（AI代理自動化入侵；可信度高）
 - **2026-09-29**｜[荷蘭](countries/netherlands/README.md)｜NL-01｜🆕 荷蘭弱點揭露研究所DIVD遭AI代理自主入侵，攻擊「吵雜且非常混亂」（AI代理自動化入侵；可信度高）
 
-## 2026-10（51 件）
+## 2026-10（52 件）
 
 - **2026-10**｜[澳洲](countries/australia/README.md)｜AU-02｜澳洲ASD《年度網路威脅報告2025–26》：AI使釣魚、社交工程與深偽更快、更精準（政府警示/評估報告；可信度高）
 - **2026-10-03**｜[韓國](countries/south-korea/README.md)｜KR-10｜🧨 金融保安院：逆向追蹤新韓銀行日誌與攻擊IP，確認銀行連環駭侵使用ARTEX（AI代理自動化入侵；可信度中）
@@ -133,6 +136,7 @@
 - **2026-10-21**｜[美國](countries/united-states/README.md)｜US-08｜Microsoft：中國國家關聯Storm-0940以ARTEX代理框架自動化攻擊數百組織，並造成ConnectWise供應鏈入侵（AI代理自動化入侵；可信度高）
 - **2026-10-21**｜[美國](countries/united-states/README.md)｜US-12｜🆕 Railway雲端平台遭入侵，攻擊者鎖定客戶環境變數中的AI供應商金鑰，造成約74萬美元未授權AI用量（針對AI系統/平台的攻擊；可信度高）
 - **2026-10-21**｜[加拿大](countries/canada/README.md)｜CA-02｜🧨 加拿大網安中心網路威脅快報：代理式AI加速網路攻擊（Storm-0940／ARTEX）（政府警示/評估報告；可信度高）
+- **2026-10-21**｜[拉丁美洲](countries/latin-america/README.md)｜LATAM-02｜🧠 Straiker：CyberCartel以PentAGI為基礎的多代理系統CARLIY0S，串接Claude、Grok與Kimi攻擊逾400家拉美銀行與支付業者（AI代理自動化入侵；可信度高）
 - **2026-10-21**｜[全球](countries/global/README.md)｜GL-09｜LiteLLM 1.107.0遭植入惡意程式上架PyPI約2小時：.pth啟動掛鉤竊取憑證並載入遠端程式碼（AI供應鏈攻擊；可信度高）
 - **2026-10-21**｜[全球](countries/global/README.md)｜GL-25｜🆕 Symantec蜜罐捕獲自主LLMjacking代理「Skynet」指令：劫持暴露的AI模型作為攻擊推理引擎，掃描、竊憑證、利用漏洞並挖礦（針對AI系統/平台的攻擊；可信度高）
 - **2026-10-21**｜[全球](countries/global/README.md)｜GL-35｜🧨 Zscaler ThreatLabz：韓國金融攻擊者的ARTEX環境揭示全球多產業攻擊，結合Claude Code、Codex與Grok工作區（AI代理自動化入侵；可信度高）
@@ -153,7 +157,7 @@
 - **2026-10-30**｜[全球](countries/global/README.md)｜GL-36｜🧨 Google GTIG／Mandiant「ARTEX and Friends」：代理式攻擊框架登場，UNC7228最快15分鐘取得深層存取（AI代理自動化入侵；可信度高）
 - **2026-10-31**｜[全球](countries/global/README.md)｜GL-29｜🆕 Cisco Talos：VOLTA資訊竊取程式以LLM分析受害者並排序最有價值資產（AI輔助攻擊/惡意程式；可信度高）
 
-## 2026-11（54 件）
+## 2026-11（56 件）
 
 - **2026-11-02**｜[台灣](countries/taiwan/README.md)｜TW-13｜調查局查獲散布台北市長候選人「深偽音檔」影片男子，聲押禁見（AI認知作戰/影響力行動；可信度高）
 - **2026-11-02**｜[中國](countries/china/README.md)｜CN-11｜🆕 CVERC 10月病毒疫情：AI濫用持續惡化，被用於大規模客製化滲透與批量投遞勒索軟體、竊密木馬（政府警示/評估報告；可信度高）
@@ -189,9 +193,11 @@
 - **2026-11-11**｜[台灣](countries/taiwan/README.md)｜TW-15｜警政署：選舉深偽假訊息已偵處219件，134件176人移送（AI認知作戰/影響力行動；可信度高）
 - **2026-11-11**｜[美國](countries/united-states/README.md)｜US-20｜🧨 Barracuda：竊得某AI廠商雲端金鑰的ARTEX式攻擊，44小時內存取約10個雲端帳號（AI代理自動化入侵；可信度高）
 - **2026-11-11**｜[全球](countries/global/README.md)｜GL-34｜🆕 NEAR AI：SGLang遠端程式碼執行漏洞遭利用，約100名使用者帳號資料遭下載（針對AI系統/平台的攻擊；可信度高）
+- **2026-11-11**｜[全球](countries/global/README.md)｜GL-47｜🧠 Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密（AI代理自動化入侵；可信度中）
 - **2026-11-12**｜[美國](countries/united-states/README.md)｜US-10｜FBI FLASH：北韓「FaceStealer」以偽造視訊會議與受害者錄影、AI深偽影片竊取逾4億美元加密貨幣（深偽詐騙/語音複製；可信度高）
 - **2026-11-12**｜[美國](countries/united-states/README.md)｜US-14｜🆕 Unit 42：CL-STA-1238以客製化Cairn自主攻擊框架對至少19個組織發動25次行動，10個成功（半導體、美國國防政策、人權團體）（AI代理自動化入侵；可信度高）
 - **2026-11-12**｜[美國](countries/united-states/README.md)｜US-15｜🆕 Symantec：攻擊美國零售商的手動指令遭阻擋後，攻擊者改用疑似AI生成指令，數分鐘內竊取憑證並橫向移動（AI輔助攻擊/惡意程式；可信度中）
+- **2026-11-12**｜[全球](countries/global/README.md)｜GL-48｜🧠 CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀（AI代理自動化入侵；可信度高）
 - **2026-11-13**｜[日本](countries/japan/README.md)｜JP-15｜🆕 IPA《AIセキュリティ短信》11月號：彙整日本AI代理攻擊事件（Scutum、NICT、JPCERT、GMO）及PHP2Shell＋Fragnesia攻擊鏈（政府警示/評估報告；可信度高）
 - **2026-11-13**｜[美國](countries/united-states/README.md)｜US-16｜🆕 FBI FLASH-20261113-001：ARTEX自主滲透框架威脅概覽，公布24個IP、網域與LLM API主機等IOC（AI代理自動化入侵；可信度高）
 - **2026-11-13**｜[全球](countries/global/README.md)｜GL-11｜Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施（AI代理自動化入侵；可信度高）

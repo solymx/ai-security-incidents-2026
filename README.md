@@ -1,15 +1,18 @@
 # 2026 年全球 AI 相關資安事件資料庫（ai-security-incidents-2026）
 
-> 🧨 **ARTEX 專題（2026-11-22 新增）**：AI 自主滲透框架 ARTEX 的來源、能力、操作者歸因、43 件相關事件（台灣優先）、時間軸、受害產業統計、去武化 IOC、偵測與緩解建議、與 Cairn／CyberStrikeAI／PentAGI／Strix／OpenClaw／Hermes 比較 → **[`artex.md`](artex.md)**
+> 🧨 **ARTEX 專題（2026-11-22 新增）**：AI 自主滲透框架 ARTEX 的來源、能力、操作者歸因、44 件相關事件（台灣優先）、時間軸、受害產業統計、去武化 IOC、偵測與緩解建議、與 Cairn／CyberStrikeAI／PentAGI／Strix／OpenClaw／Hermes 比較 → **[`artex.md`](artex.md)**
+>
+> 🧠 **AI 模型專題（2026-11-24 新增）**：ARTEX、Cairn、Strix、Hermes、OpenClaw、CyberStrikeAI、PentAGI、HexStrike 等框架背後到底接哪些 AI 模型？官方支援 vs 實戰觀測、逐句附出處、模型使用排行（DeepSeek 居首）、查證「ARTEX＋GLM 5.2」說法 → **[`models.md`](models.md)**
 
-整理 **2026-01-01 至 2026-11-22** 間公開報導的 AI 相關資安事件與重大政府示警，**依國家分類**，以東亞（台灣優先）為重點。全部內容以繁體中文撰寫，標題與摘要為翻譯整理，**保留原始來源連結**。
+整理 **2026-01-01 至 2026-11-24** 間公開報導的 AI 相關資安事件與重大政府示警，**依國家分類**，以東亞（台灣優先）為重點。全部內容以繁體中文撰寫，標題與摘要為翻譯整理，**保留原始來源連結**。
 
-- 收錄事件總數：**173 件**（可信度 高 120 件、中 49 件、低 4 件）
+- 收錄事件總數：**179 件**（可信度 高 124 件、中 51 件、低 4 件）
 - 完整資料：[`data/events.csv`](data/events.csv)（UTF-8 with BOM，可直接以 Excel 開啟）、[`data/events.json`](data/events.json)
 - 依時間瀏覽：[`timeline.md`](timeline.md)｜所有來源連結與檢查結果：[`sources.md`](sources.md)
-- 資料截止：2026-11-22（台北時間）｜**第三版**：ARTEX 專題，新增 24 件（🧨），資料新增 `framework` 欄位標記涉及之 AI 攻擊框架（確認涉及 ARTEX 者 43 件、疑似 8 件），詳見 [`artex.md`](artex.md)
+- 資料截止：2026-11-24（台北時間）｜**第四版**：AI 模型專題，新增 6 件（🧠），資料新增 `models` 欄位（僅有來源者填寫，21 件），詳見 [`models.md`](models.md)
+- **第三版**（2026-11-22）：ARTEX 專題，新增 24 件（🧨），資料新增 `framework` 欄位標記涉及之 AI 攻擊框架（確認涉及 ARTEX 者 44 件、疑似 8 件），詳見 [`artex.md`](artex.md)
 - **第二版**：9–11 月深度擴充，新增 65 件（🆕），並補強多筆既有事件（🔄），詳見 [`sep-nov-2026.md`](sep-nov-2026.md)
-- 9–11 月事件共 **131 件**，占全部 76%
+- 9–11 月事件共 **135 件**，占全部 75%
 
 ## 國家索引
 
@@ -17,8 +20,8 @@
 
 | # | 國家／地區 | 區域 | 受害／發布 | 歸因來源 | 受波及 | 9–11月新增 | 檔案 |
 |---|---|---|---|---|---|---|---|
-| 1 | **台灣** | 東亞 | 21 | 2 | 2 | 4 | [countries/taiwan](countries/taiwan/README.md) |
-| 2 | **中國** | 東亞 | 14 | 37 | 0 | 4 | [countries/china](countries/china/README.md) |
+| 1 | **台灣** | 東亞 | 21 | 3 | 2 | 4 | [countries/taiwan](countries/taiwan/README.md) |
+| 2 | **中國** | 東亞 | 14 | 39 | 0 | 4 | [countries/china](countries/china/README.md) |
 | 3 | **日本** | 東亞 | 17 | 0 | 1 | 7 | [countries/japan](countries/japan/README.md) |
 | 4 | **韓國** | 東亞 | 14 | 0 | 4 | 3 | [countries/south-korea](countries/south-korea/README.md) |
 | 5 | **香港** | 東亞 | 2 | 0 | 0 | 0 | [countries/hong-kong](countries/hong-kong/README.md) |
@@ -36,23 +39,23 @@
 | 17 | **荷蘭** | 歐洲 | 1 | 0 | 0 | 1 | [countries/netherlands](countries/netherlands/README.md) |
 | 18 | **波蘭** | 歐洲 | 1 | 0 | 0 | 0 | [countries/poland](countries/poland/README.md) |
 | 19 | **烏克蘭** | 歐洲 | 1 | 0 | 0 | 0 | [countries/ukraine](countries/ukraine/README.md) |
-| 20 | **俄羅斯** | 歐洲 | 2 | 9 | 0 | 0 | [countries/russia](countries/russia/README.md) |
+| 20 | **俄羅斯** | 歐洲 | 2 | 10 | 0 | 0 | [countries/russia](countries/russia/README.md) |
 | 21 | **歐盟** | 歐洲 | 3 | 0 | 0 | 2 | [countries/eu](countries/eu/README.md) |
 | 22 | **歐洲（未具名國家）** | 歐洲 | 1 | 0 | 0 | 1 | [countries/europe-unnamed](countries/europe-unnamed/README.md) |
 | 23 | **以色列** | 中東 | 1 | 0 | 0 | 0 | [countries/israel](countries/israel/README.md) |
 | 24 | **阿聯** | 中東 | 1 | 0 | 0 | 1 | [countries/uae](countries/uae/README.md) |
 | 25 | **澳洲** | 大洋洲 | 3 | 0 | 0 | 1 | [countries/australia](countries/australia/README.md) |
-| 26 | **拉丁美洲** | 拉丁美洲 | 1 | 0 | 0 | 0 | [countries/latin-america](countries/latin-america/README.md) |
+| 26 | **拉丁美洲** | 拉丁美洲 | 2 | 0 | 0 | 0 | [countries/latin-america](countries/latin-america/README.md) |
 | 27 | **巴西** | 拉丁美洲 | 2 | 0 | 0 | 2 | [countries/brazil](countries/brazil/README.md) |
 | 28 | **墨西哥** | 拉丁美洲 | 1 | 0 | 0 | 1 | [countries/mexico](countries/mexico/README.md) |
 | 29 | **南非** | 非洲 | 2 | 0 | 0 | 1 | [countries/south-africa](countries/south-africa/README.md) |
-| 30 | **全球** | 全球／跨國 | 43 | 0 | 0 | 23 | [countries/global](countries/global/README.md) |
+| 30 | **全球** | 全球／跨國 | 48 | 0 | 0 | 23 | [countries/global](countries/global/README.md) |
 | 31 | **北韓** | 東亞 | 0 | 7 | 0 | 0 | [countries/north-korea](countries/north-korea/README.md) |
 | 32 | **伊朗** | 中東 | 0 | 5 | 0 | 0 | [countries/iran](countries/iran/README.md) |
 | 33 | **巴基斯坦** | 南亞 | 0 | 1 | 0 | 0 | [countries/pakistan](countries/pakistan/README.md) |
 | 34 | **柬埔寨** | 東南亞 | 0 | 4 | 0 | 0 | [countries/cambodia](countries/cambodia/README.md) |
 | 35 | **菲律賓** | 東南亞 | 0 | 1 | 1 | 0 | [countries/philippines](countries/philippines/README.md) |
-| 36 | **馬來西亞** | 東南亞 | 0 | 1 | 0 | 0 | [countries/malaysia](countries/malaysia/README.md) |
+| 36 | **馬來西亞** | 東南亞 | 0 | 1 | 1 | 0 | [countries/malaysia](countries/malaysia/README.md) |
 
 > 「全球」收錄無單一受害國、或受害遍及多國的事件（如 AI 供應鏈投毒、AI 廠商威脅報告）。
 
@@ -62,8 +65,8 @@
 
 | 類別 | 件數 |
 |---|---|
-| AI代理自動化入侵 | 58 |
-| 政府警示/評估報告 | 33 |
+| AI代理自動化入侵 | 63 |
+| 政府警示/評估報告 | 34 |
 | AI輔助攻擊/惡意程式 | 24 |
 | 針對AI系統/平台的攻擊 | 21 |
 | 深偽詐騙/語音複製 | 17 |
@@ -79,24 +82,24 @@
 | 2026-03 | 6 | ██████ |
 | 2026-04 | 5 | █████ |
 | 2026-05 | 2 | ██ |
-| 2026-06 | 5 | █████ |
-| 2026-07 | 5 | █████ |
+| 2026-06 | 6 | ██████ |
+| 2026-07 | 6 | ██████ |
 | 2026-08 | 5 | █████ |
-| 2026-09 | 26 | ██████████████████████████ |
-| 2026-10 | 51 | ███████████████████████████████████████████████████ |
-| 2026-11 | 54 | ██████████████████████████████████████████████████████ |
+| 2026-09 | 27 | ███████████████████████████ |
+| 2026-10 | 52 | ████████████████████████████████████████████████████ |
+| 2026-11 | 56 | ████████████████████████████████████████████████████████ |
 
 ### 被歸因為攻擊來源（含疑似）
 
 | 來源國 | 事件數 |
 |---|---|
-| [中國](countries/china/README.md) | 37 |
-| [俄羅斯](countries/russia/README.md) | 9 |
+| [中國](countries/china/README.md) | 39 |
+| [俄羅斯](countries/russia/README.md) | 10 |
 | [北韓](countries/north-korea/README.md) | 7 |
 | [伊朗](countries/iran/README.md) | 5 |
 | [柬埔寨](countries/cambodia/README.md) | 4 |
+| [台灣](countries/taiwan/README.md) | 3 |
 | [美國](countries/united-states/README.md) | 2 |
-| [台灣](countries/taiwan/README.md) | 2 |
 | [馬來西亞](countries/malaysia/README.md) | 1 |
 | [菲律賓](countries/philippines/README.md) | 1 |
 | [巴基斯坦](countries/pakistan/README.md) | 1 |

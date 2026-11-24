@@ -20,7 +20,8 @@
     ],
     "note": "國安局送立法院書面報告；中央社轉述",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-02",
@@ -42,7 +43,8 @@
     ],
     "note": "中央社轉述國安局新聞稿；數據為2025全年",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-03",
@@ -62,7 +64,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-04",
@@ -82,7 +85,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-05",
@@ -105,7 +109,8 @@
     ],
     "note": "已重新核對：中央社2026-04-06報導與國安局立法院書面報告PDF（立法院議事系統）數字一致；報告亦示警中共將以AI深偽、假民調介入年底九合一選舉。日期改為中央社公開報導日",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-06",
@@ -125,13 +130,17 @@
     "sources": [
       "https://moda.gov.tw/ACS/press/news/press/20394",
       "https://www.ithome.com.tw/news/178105",
-      "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055"
+      "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+      "https://www.csoonline.com/article/4209210/ai-agents-wage-near-autonomous-cyberattack-on-asian-government-networks.html"
     ],
     "note": "數發部證實事件、稱攻擊來自境外但未公開歸因；技術細節與數字出自以色列資安公司Dream報告（經The Register、iThome報導），報導指操作者以中文下指令，疑為中國駭客",
     "added": "v1",
     "framework": [
       "OpenClaw",
       "Hermes"
+    ],
+    "models": [
+      "DeepSeek-V4-Flash（Dream：不確定是否唯一）"
     ]
   },
   {
@@ -156,7 +165,8 @@
     ],
     "note": "媒體轉述彭博社訪問TeamT5；未找到TeamT5公開原始報告",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-08",
@@ -178,7 +188,8 @@
     ],
     "note": "詐團自2022年起運作；破獲/起訴在2026年；ETtoday報導受害人數為「25萬」，與刑事局／公視「逾2萬」不一致，本資料採官方數字",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-09",
@@ -198,7 +209,8 @@
     ],
     "note": "無證據顯示與境外勢力有關",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-16",
@@ -218,7 +230,8 @@
     ],
     "note": "中央社報導資安署說明",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-20",
@@ -242,7 +255,8 @@
     "added": "v3",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "TW-21",
@@ -266,7 +280,8 @@
     "added": "v3",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "TW-10",
@@ -289,7 +304,8 @@
     ],
     "note": "國安局送立法院報告，媒體轉述",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-11",
@@ -313,7 +329,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "TW-12",
@@ -343,7 +360,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "TW-13",
@@ -364,7 +382,8 @@
     ],
     "note": "是否涉及境外仍待釐清",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-17",
@@ -384,7 +403,8 @@
     ],
     "note": "警察廣播電臺（警政署）發布；與刑事局科技犯罪防制中心共組專案",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-14",
@@ -416,7 +436,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "TW-15",
@@ -438,7 +459,8 @@
     ],
     "note": "內政部11/04新聞稿：截至10月底已偵處184件、移送112件153人；11/11更新為219件、134件176人",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TW-18",
@@ -454,11 +476,26 @@
     "impact": "11/12–13搜索8處、查扣電腦手機；林、張2人遭羈押",
     "credibility": "高",
     "sources": [
-      "https://www.mjib.gov.tw/news/Details/1/1227"
+      "https://www.mjib.gov.tw/news/Details/1/1227",
+      "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/"
     ],
-    "note": "調查局新聞稿；桃園地檢署指揮偵辦",
+    "note": "調查局新聞稿；桃園地檢署指揮偵辦；Acronis TRU（11/04）報告同名BOSSAI、亦鎖定台灣緊急救護服務（與調查局案是否同一人未經官方確認）：單一操作者以12個AI代理組成BOSSAI網格（建構：Grok、OpenClaw、Claude Code、Codex；攻擊：Hermes、Cursor、Trae、CyberStrike），攻擊11國數百個組織",
     "added": "v2",
-    "framework": []
+    "framework": [
+      "Hermes",
+      "OpenClaw",
+      "CyberStrikeAI",
+      "HexStrike AI"
+    ],
+    "models": [
+      "去對齊（abliterated）DeepSeek-V4「DS4」（最終預設）",
+      "DeepSeek-R1 70B",
+      "Qwen 3.5 122B",
+      "去對齊GLM",
+      "Gemma",
+      "MiniMax M3（OpenClaw，拒絕攻擊）",
+      "Grok（拒絕攻擊）"
+    ]
   },
   {
     "id": "TW-19",
@@ -480,7 +517,8 @@
     ],
     "note": "媒體報導；正式文件尚未公布",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-01",
@@ -500,7 +538,8 @@
     ],
     "note": "騰訊新聞轉述360年報；資料期間主要為2025年",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-02",
@@ -522,7 +561,8 @@
     ],
     "note": "僅為官方回應媒體報導之計畫，無技術證據，不計入已確認攻擊",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-03",
@@ -543,7 +583,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-04",
@@ -563,7 +604,8 @@
     ],
     "note": "國安部微信公眾號，經新浪轉載",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-05",
@@ -584,7 +626,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-06",
@@ -604,7 +647,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-09",
@@ -624,7 +668,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-07",
@@ -644,7 +689,8 @@
     ],
     "note": "官方報告PDF（2026-09-07產生）",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-10",
@@ -666,7 +712,8 @@
     ],
     "note": "單一研究員自述，受害企業未確認；微步在線分析原刊於微信公眾號（經cn-sec轉載）",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-13",
@@ -690,7 +737,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "CN-11",
@@ -710,7 +758,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-08",
@@ -730,7 +779,8 @@
     ],
     "note": "光明網轉載株洲警方",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-12",
@@ -750,7 +800,8 @@
     ],
     "note": "官方聲明，非攻擊事件；與UK NCSC評估（英國檔案）對照",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CN-14",
@@ -772,7 +823,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-01",
@@ -795,7 +847,8 @@
     ],
     "note": "ETtoday轉述刑事局；跨國案件，台灣檔案交叉引用",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-02",
@@ -815,7 +868,8 @@
     ],
     "note": "出自警察廳《令和8年上半期サイバー空間をめぐる脅威の情勢》",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-03",
@@ -838,7 +892,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-04",
@@ -858,7 +913,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-05",
@@ -878,7 +934,8 @@
     ],
     "note": "犯行於2025年11月，逮捕於2026年7月",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-06",
@@ -902,7 +959,8 @@
       "ARTEX",
       "Cairn",
       "CyberStrikeAI"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-10",
@@ -924,7 +982,8 @@
     "added": "v2",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-11",
@@ -944,7 +1003,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-12",
@@ -964,7 +1024,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-13",
@@ -992,7 +1053,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-07",
@@ -1012,7 +1074,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-17",
@@ -1037,6 +1100,9 @@
     "added": "v3",
     "framework": [
       "CyberStrikeAI"
+    ],
+    "models": [
+      "未確定（趨勢科技明言實際模型未確定）"
     ]
   },
   {
@@ -1061,7 +1127,8 @@
     "added": "v1",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-14",
@@ -1083,7 +1150,8 @@
     "added": "v2",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "JP-15",
@@ -1103,7 +1171,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-16",
@@ -1123,7 +1192,8 @@
     ],
     "note": "NHK報導",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "JP-09",
@@ -1145,7 +1215,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "KR-01",
@@ -1166,7 +1237,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "KR-10",
@@ -1188,7 +1260,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-07",
@@ -1211,7 +1284,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-02",
@@ -1240,6 +1314,12 @@
     "added": "v1",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek v4.1-flash（ARTEX主力）",
+      "GLM-5.3",
+      "Grok 4.6",
+      "Claude Code（工具）"
     ]
   },
   {
@@ -1262,7 +1342,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-08",
@@ -1286,7 +1367,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-03",
@@ -1311,7 +1393,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-09",
@@ -1335,7 +1418,8 @@
     "added": "v2",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-04",
@@ -1360,7 +1444,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-12",
@@ -1382,7 +1467,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-13",
@@ -1406,6 +1492,12 @@
     "added": "v3",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek V4.1 Flash（主力）",
+      "GLM 5.3（備援）",
+      "Grok 4.6（備援）",
+      "Claude Code 2.1.221（請求經xcai.pro轉至DeepSeek）"
     ]
   },
   {
@@ -1429,7 +1521,8 @@
     "added": "v1",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "KR-06",
@@ -1449,7 +1542,8 @@
     ],
     "note": "AI使用為受害方推估",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "KR-14",
@@ -1474,7 +1568,8 @@
     "framework": [
       "ARTEX",
       "Prtseek"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "HK-01",
@@ -1494,7 +1589,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "HK-02",
@@ -1516,7 +1612,8 @@
     ],
     "note": "台灣檔案交叉引用",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "SG-01",
@@ -1536,7 +1633,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "SG-02",
@@ -1556,7 +1654,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "ID-01",
@@ -1578,7 +1677,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "TH-01",
@@ -1598,7 +1698,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IN-01",
@@ -1621,7 +1722,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IN-02",
@@ -1641,7 +1743,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IN-03",
@@ -1662,7 +1765,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IN-04",
@@ -1684,6 +1788,11 @@
     "added": "v2",
     "framework": [
       "Hermes"
+    ],
+    "models": [
+      "DeepSeek V4（主力）",
+      "Cursor：Claude Opus 4.8、GPT-5.5、Composer 2.5",
+      "GLM 5.2（測試）"
     ]
   },
   {
@@ -1711,7 +1820,8 @@
       "PentAGI",
       "Cairn",
       "CyberStrikeAI"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-01",
@@ -1731,7 +1841,8 @@
     ],
     "note": "受害範圍為全球；因發布者為美國企業暫列美國",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-02",
@@ -1754,7 +1865,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-03",
@@ -1775,7 +1887,8 @@
     ],
     "note": "OpenAI後續說明與其模型評估代理有關；HF總部位於美國",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-04",
@@ -1796,7 +1909,8 @@
     ],
     "note": "全球性活動；加拿大網安中心9/8另發警示",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-05",
@@ -1817,7 +1931,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-06",
@@ -1842,6 +1957,12 @@
       "Strix",
       "Cairn",
       "Hermes"
+    ],
+    "models": [
+      "Claude opus-4.6（Hermes）",
+      "GLM 5.2→DeepSeek v4 Pro（Strix）",
+      "DeepSeek v4.1 Flash（Cairn）",
+      "經OpenRouter"
     ]
   },
   {
@@ -1866,6 +1987,9 @@
     "added": "v1",
     "framework": [
       "Cairn"
+    ],
+    "models": [
+      "deepseek-v4.1-flash＋Claude Code（僅worker名稱推測，未證實）"
     ]
   },
   {
@@ -1892,7 +2016,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-12",
@@ -1917,7 +2042,8 @@
     "added": "v2",
     "framework": [
       "ARTEX?"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-17",
@@ -1941,7 +2067,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-18",
@@ -1963,7 +2090,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-09",
@@ -1983,7 +2111,8 @@
     ],
     "note": "犯行期間2024–2026",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-13",
@@ -2005,7 +2134,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-19",
@@ -2028,7 +2158,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-20",
@@ -2052,7 +2183,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "US-10",
@@ -2074,7 +2206,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-14",
@@ -2101,6 +2234,11 @@
     "added": "v2",
     "framework": [
       "Cairn"
+    ],
+    "models": [
+      "GLM 5.2（13次行動）",
+      "DeepSeek V4 Flash（8次）",
+      "DeepSeek V4 Pro（4次）"
     ]
   },
   {
@@ -2121,7 +2259,8 @@
     ],
     "note": "AI參與為廠商研判（「appears to be」）",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "US-16",
@@ -2149,6 +2288,14 @@
     "added": "v2",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "Claude",
+      "GPT",
+      "DeepSeek（Flash系列最普遍）",
+      "GLM",
+      "Grok",
+      "Kimi"
     ]
   },
   {
@@ -2169,7 +2316,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "CA-01",
@@ -2193,7 +2341,8 @@
       "ARTEX",
       "CyberStrikeAI",
       "PentAGI"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "CA-02",
@@ -2217,7 +2366,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "UK-01",
@@ -2238,7 +2388,8 @@
     ],
     "note": "NCSC確認事件但未提及AI；AI平台角色出自媒體",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "UK-04",
@@ -2262,7 +2413,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "UK-02",
@@ -2282,7 +2434,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "UK-03",
@@ -2302,7 +2455,8 @@
     ],
     "note": "AI參與為「疑似」，Bitdefender無法取得攻擊者主機",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "FR-01",
@@ -2323,7 +2477,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "FR-02",
@@ -2346,7 +2501,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "DE-01",
@@ -2366,7 +2522,8 @@
     ],
     "note": "南德意志報引述Allianz Trade理賠案例；發生日期未明（2026-01報導）",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "DE-02",
@@ -2386,7 +2543,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "DE-04",
@@ -2408,7 +2566,8 @@
     ],
     "note": "OpenAI承認為非預期代理行為",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "DE-03",
@@ -2428,7 +2587,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IT-01",
@@ -2449,7 +2609,8 @@
     ],
     "note": "事件發生於2026年2月，9月公開；款項主要匯往中國與香港",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "NL-01",
@@ -2472,7 +2633,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "PL-01",
@@ -2494,7 +2656,8 @@
     ],
     "note": "官方頁面未明確歸因，僅置於俄羅斯攻擊烏克蘭之脈絡",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "UA-01",
@@ -2516,7 +2679,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "RU-01",
@@ -2536,7 +2700,8 @@
     ],
     "note": "依搜尋摘要整理，未逐頁核對",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "RU-02",
@@ -2556,7 +2721,8 @@
     ],
     "note": "《生意人報》轉述PT ESC",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "EU-01",
@@ -2576,7 +2742,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "EU-02",
@@ -2598,7 +2765,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "EU-03",
@@ -2624,7 +2792,8 @@
     "added": "v2",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "EUX-01",
@@ -2647,7 +2816,8 @@
     ],
     "note": "單一廠商研究，受害方未證實",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "IL-01",
@@ -2670,7 +2840,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "AE-01",
@@ -2692,7 +2863,8 @@
     ],
     "note": "官方受訪說法，未公布技術證據",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "AU-01",
@@ -2712,7 +2884,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "AU-03",
@@ -2733,7 +2906,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "AU-02",
@@ -2753,7 +2927,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "LATAM-01",
@@ -2776,7 +2951,37 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
+  },
+  {
+    "id": "LATAM-02",
+    "date": "2026-10-21",
+    "country": "拉丁美洲",
+    "source_country": "墨西哥（CyberCartel／Tr4nsHack，Straiker研判）",
+    "source_country_tags": [],
+    "also_affects": [],
+    "category": "AI代理自動化入侵",
+    "title": "Straiker：CyberCartel以PentAGI為基礎的多代理系統CARLIY0S，串接Claude、Grok與Kimi攻擊逾400家拉美銀行與支付業者",
+    "technique": "四個Claude角色（claude-opus-4-8偵察、claude-opus-4-7寫攻擊程式、設定檔列claude-fable-5〔未證實〕、claude-opus-5仲裁）辯論後由指揮官執行；5個「Grok礦工」蒐集竊得機密；Kimi為備援；模型拒絕時改用本機硬編碼程式；以「授權紅隊／CTF」話術越獄",
+    "victims": "逾400家拉丁美洲銀行與支付業者",
+    "impact": "竊得憑證資料庫4,493筆（含金融帳戶、密碼、API金鑰）、903組CLABE帳號",
+    "credibility": "高",
+    "sources": [
+      "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks"
+    ],
+    "note": "Anthropic已撤銷其使用的憑證；xAI已獲通知並調查",
+    "added": "v4",
+    "framework": [
+      "PentAGI",
+      "CARLIY0S"
+    ],
+    "models": [
+      "Claude Opus 4.8／4.7／5",
+      "Claude Fable 5（僅設定、未證實）",
+      "Grok",
+      "Kimi（備援）"
+    ]
   },
   {
     "id": "BR-01",
@@ -2796,7 +3001,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "BR-02",
@@ -2817,7 +3023,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "MX-01",
@@ -2838,7 +3045,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "ZA-01",
@@ -2860,7 +3068,8 @@
     ],
     "note": "僅見MyBroadband於NightsBridge報導中附帶提及，未找到原始報導或官方說明",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "ZA-02",
@@ -2880,7 +3089,8 @@
     ],
     "note": "AI參與為受害方研判",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-01",
@@ -2901,7 +3111,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-02",
@@ -2926,7 +3137,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-03",
@@ -2950,7 +3162,8 @@
     ],
     "note": "其中針對日本首相、印尼之個案另列",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-04",
@@ -2970,7 +3183,8 @@
     ],
     "note": "僅確認官方公告頁存在，細節未逐一核對",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-05",
@@ -2991,7 +3205,35 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
+  },
+  {
+    "id": "GL-44",
+    "date": "2026-06-23",
+    "country": "全球",
+    "source_country": "俄羅斯（Cybernews稱為俄國公民）",
+    "source_country_tags": [
+      "俄羅斯"
+    ],
+    "also_affects": [],
+    "category": "AI代理自動化入侵",
+    "title": "Cybernews：俄國駭客以HexStrike AI＋Claude入侵旅宿訂房平台，暴露逾210萬筆Email",
+    "technique": "以「滲透測試」包裝繞過模型護欄；產出至少50份針對旅宿業的「滲透測試報告」；Claude設定檔中的個人Email洩漏身分",
+    "victims": "旅宿業訂房／物業管理平台（RoomScope、IGMS、NebulaPMS、Staysee等）",
+    "impact": "逾210萬筆Email與訂房資料暴露",
+    "credibility": "中",
+    "sources": [
+      "https://cybernews.com/security/claude-ai-exploited-breach-hotel-booking-platforms/"
+    ],
+    "note": "媒體研究團隊發現，未見受害方或Anthropic公開證實",
+    "added": "v4",
+    "framework": [
+      "HexStrike AI"
+    ],
+    "models": [
+      "Claude"
+    ]
   },
   {
     "id": "GL-06",
@@ -3012,7 +3254,67 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
+  },
+  {
+    "id": "GL-45",
+    "date": "2026-07-30",
+    "country": "全球",
+    "source_country": "中國（說中文，Unit 42稱據點在珠海）",
+    "source_country_tags": [
+      "中國"
+    ],
+    "also_affects": [
+      "馬來西亞"
+    ],
+    "category": "AI代理自動化入侵",
+    "title": "Unit 42：說中文的knaithe／KnYuan以Hermes Agent＋DeepSeek為自主攻擊操作員，利用7個漏洞並經Telegram指揮",
+    "technique": "Hermes Agent負責編排（終端、Telegram C2、技能），DeepSeek作推理引擎（直連api.deepseek[.]com）；另設定Qwen、GLM、Kimi、MiniMax，Claude Code（經代理，僅連線測試）與Codex（GPT-5.4，經代理）少量使用；Hermes載入godmode越獄技能",
+    "victims": "中國境內基礎設施（自主掃描、無差別）、馬來西亞政府機關（人工鎖定）等三國受害者",
+    "impact": "NetScaler等漏洞遭利用、資料外洩",
+    "credibility": "高",
+    "sources": [
+      "https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/"
+    ],
+    "note": "",
+    "added": "v4",
+    "framework": [
+      "Hermes"
+    ],
+    "models": [
+      "DeepSeek（主力）",
+      "GPT-5.4（Codex，少量）",
+      "Claude Opus（Claude Code，僅測試）",
+      "Qwen／GLM-5／Kimi／MiniMax（Qwen Code設定）"
+    ]
+  },
+  {
+    "id": "GL-46",
+    "date": "2026-09",
+    "country": "全球",
+    "source_country": "多國（含中國關聯GTG-10007）",
+    "source_country_tags": [
+      "中國"
+    ],
+    "also_affects": [],
+    "category": "政府警示/評估報告",
+    "title": "Anthropic《Detecting and countering misuse of AI: September 2026》：多個行動者以公開代理攻擊框架（如PentAGI）搭配Claude自動化攻擊，帳號已封禁",
+    "technique": "報告稱GTG-50020、GTG-50029使用PentAGI等公開攻擊框架，「several operations in this report ran on them or on derivatives」；GTG-10007為說中文、可能位於湖南長沙的間諜行動，涉及漏洞研究與自主攻擊框架；報告期間2025/12–2026/8，所有案例使用Claude Haiku、Sonnet、Opus",
+    "victims": "多國（詳見報告）",
+    "impact": "詳見報告",
+    "credibility": "高",
+    "sources": [
+      "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    ],
+    "note": "AI廠商自身威脅報告；Anthropic稱已封禁相關帳號（如「We banned accounts associated with the actors」）",
+    "added": "v4",
+    "framework": [
+      "PentAGI"
+    ],
+    "models": [
+      "Claude（Haiku／Sonnet／Opus）"
+    ]
   },
   {
     "id": "GL-12",
@@ -3033,7 +3335,8 @@
     ],
     "note": "經360 AI安全專題週報彙整；原文刊於奇安信微信公眾號",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-13",
@@ -3053,7 +3356,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-07",
@@ -3078,7 +3382,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-14",
@@ -3104,7 +3409,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-15",
@@ -3124,7 +3430,8 @@
     ],
     "note": "英國AISI測試Mythos 5之事件另案",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-08",
@@ -3147,7 +3454,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-16",
@@ -3168,7 +3476,8 @@
     ],
     "note": "媒體報導Google證實",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-17",
@@ -3188,7 +3497,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-18",
@@ -3209,7 +3519,8 @@
     ],
     "note": "經360 AI安全專題週報彙整；原文刊於奇安信微信公眾號",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-19",
@@ -3229,7 +3540,8 @@
     ],
     "note": "與澳洲事件（AU）相關之6月政府統計網站事件可交互參照",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-20",
@@ -3251,7 +3563,8 @@
     ],
     "note": "Warden原文刊於奇安信微信公眾號（10/12）；Aoki為Symantec 10/15",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-21",
@@ -3271,7 +3584,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-22",
@@ -3291,7 +3605,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-23",
@@ -3321,6 +3636,9 @@
     "added": "v2",
     "framework": [
       "Cairn"
+    ],
+    "models": [
+      "deepseek-v4.1-flash"
     ]
   },
   {
@@ -3341,7 +3659,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-09",
@@ -3362,7 +3681,8 @@
     ],
     "note": "",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-25",
@@ -3382,7 +3702,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-35",
@@ -3408,6 +3729,12 @@
     "added": "v3",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "deepseek-v4.1-flash",
+      "glm-5.3",
+      "grok-4.7",
+      "Claude Code／Codex（工具）"
     ]
   },
   {
@@ -3437,6 +3764,10 @@
     "added": "v2",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek（主力）",
+      "未確認的訂閱制商用LLM"
     ]
   },
   {
@@ -3457,7 +3788,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-28",
@@ -3477,7 +3809,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-36",
@@ -3503,7 +3836,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-29",
@@ -3523,7 +3857,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-30",
@@ -3546,7 +3881,8 @@
     ],
     "note": "媒體轉述Binance事後報告；內部AI工具細節未公開，AI為入侵後輔助角色",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-31",
@@ -3566,7 +3902,8 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-32",
@@ -3589,7 +3926,8 @@
     "added": "v2",
     "framework": [
       "CyberStrikeAI"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-33",
@@ -3611,6 +3949,12 @@
     "added": "v2",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek Flash系列（最普遍）",
+      "DeepSeek V4.1 Flash",
+      "Kimi K3.1 Pro",
+      "Claude Opus 5.5（觸發護欄後改用中國模型）"
     ]
   },
   {
@@ -3636,7 +3980,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-38",
@@ -3660,7 +4005,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-10",
@@ -3680,7 +4026,8 @@
     ],
     "note": "AI驅動為受害方研判",
     "added": "v1",
-    "framework": []
+    "framework": [],
+    "models": []
   },
   {
     "id": "GL-39",
@@ -3702,7 +4049,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-40",
@@ -3726,6 +4074,11 @@
     "added": "v3",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek",
+      "GLM",
+      "Grok（引述已公開行動）"
     ]
   },
   {
@@ -3746,7 +4099,60 @@
     ],
     "note": "",
     "added": "v2",
-    "framework": []
+    "framework": [],
+    "models": []
+  },
+  {
+    "id": "GL-47",
+    "date": "2026-11-11",
+    "country": "全球",
+    "source_country": "未歸因",
+    "source_country_tags": [],
+    "also_affects": [],
+    "category": "AI代理自動化入侵",
+    "title": "Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密",
+    "technique": "AntiFox為ARTEX 0.1.1分支（中文介面）；ASPX webshell讀取web.config連線字串，再以IAM使用者／EC2角色在約30分鐘內發出數百次AWS API呼叫，部分成功（GetSecretValue）；另一案讀取、複製並刪除S3物件",
+    "victims": "對外IIS應用程式及其AWS環境（未具名）",
+    "impact": "正式環境機密遭取；S3物件遭刪",
+    "credibility": "中",
+    "sources": [
+      "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
+    ],
+    "note": "Arctic Wolf研究經BleepingComputer報導；所用模型未公開",
+    "added": "v4",
+    "framework": [
+      "ARTEX",
+      "AntiFox"
+    ],
+    "models": []
+  },
+  {
+    "id": "GL-48",
+    "date": "2026-11-12",
+    "country": "全球",
+    "source_country": "台灣（操作者時區Asia/Taipei、繁中註解，未正式歸因）",
+    "source_country_tags": [
+      "台灣"
+    ],
+    "also_affects": [],
+    "category": "AI代理自動化入侵",
+    "title": "CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀",
+    "technique": "OpenClaw節點經中國商用AI閘道llm.chudian[.]site輪替使用MiniMax與DeepSeek模型；操作者經Telegram下指令；代理察覺異常後自行撰寫並執行自毀程序",
+    "victims": "CounterCraft誘捕環境（Docker暴露主機）",
+    "impact": "—（誘捕觀測）",
+    "credibility": "高",
+    "sources": [
+      "https://www.countercraftsec.com/blog/openclaw-malware-ai-agent-attack/"
+    ],
+    "note": "",
+    "added": "v4",
+    "framework": [
+      "OpenClaw"
+    ],
+    "models": [
+      "MiniMax",
+      "DeepSeek"
+    ]
   },
   {
     "id": "GL-11",
@@ -3768,7 +4174,8 @@
     "added": "v1",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-41",
@@ -3792,7 +4199,8 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   },
   {
     "id": "GL-42",
@@ -3817,6 +4225,12 @@
     "added": "v3",
     "framework": [
       "ARTEX"
+    ],
+    "models": [
+      "DeepSeek v4.1-flash",
+      "GLM-5.3",
+      "Grok 4.6",
+      "Claude Opus 5.5（護欄）"
     ]
   },
   {
@@ -3839,6 +4253,7 @@
     "added": "v3",
     "framework": [
       "ARTEX"
-    ]
+    ],
+    "models": []
   }
 ]

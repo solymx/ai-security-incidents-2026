@@ -1,16 +1,16 @@
 # ARTEX 專題：AI 自主滲透框架 ARTEX 相關資安事件彙整（2026-07 ～ 2026-11-22）
 
-[← 回到總覽](README.md)｜[9–11 月專題](sep-nov-2026.md)｜[時間軸](timeline.md)｜[完整資料 CSV](data/events.csv)（`framework` 欄位含 `ARTEX` 者）
+[← 回到總覽](README.md)｜[🧠 各框架背後用了哪些 AI 模型](models.md)｜[9–11 月專題](sep-nov-2026.md)｜[時間軸](timeline.md)｜[完整資料 CSV](data/events.csv)（`framework` 欄位含 `ARTEX` 者）
 
 > 本頁依資料集中標記 `framework=ARTEX` 的事件**自動產生**，所有統計皆由下表事件計算。🧨＝2026-11-22 第三版新增；`ARTEX?`＝同波疑似、官方或鑑識報告**未證實**使用 ARTEX，另列於「疑似」段落，不計入主統計。資料截止：2026-11-22（台北時間）。
 > 本頁僅收錄**公開**資訊；IOC 皆已去武化（`[.]`），偵測／緩解建議均出自官方或廠商公開通報，不含任何攻擊程式碼或利用細節。
 
 ## 一、重點摘要
 
-- 確認涉及 ARTEX 的事件／報告共 **43 件**（本版新增 **21 件**），另有疑似同波 **8 件**；其中具體攻擊、入侵或基礎設施分析 **33 件**、政府示警／評估 **10 件**。
-- 可信度：🟢高 33、🟡中 10、🔴低 0。
-- 依主檔國家：台灣 3、中國 2、日本 2、韓國 10、印度 1、美國 7、加拿大 2、英國 1、荷蘭 1、歐盟 2、全球 12。
-- 時間分布：2026-09 2 件、2026-10 20 件、2026-11 21 件（ARTEX 於 2026-07-26 首次提交，8 月起出現惡意使用，10 月爆量）。
+- 確認涉及 ARTEX 的事件／報告共 **44 件**（本版新增 **21 件**），另有疑似同波 **8 件**；其中具體攻擊、入侵或基礎設施分析 **34 件**、政府示警／評估 **10 件**。
+- 可信度：🟢高 33、🟡中 11、🔴低 0。
+- 依主檔國家：台灣 3、中國 2、日本 2、韓國 10、印度 1、美國 7、加拿大 2、英國 1、荷蘭 1、歐盟 2、全球 13。
+- 時間分布：2026-09 2 件、2026-10 20 件、2026-11 22 件（ARTEX 於 2026-07-26 首次提交，8 月起出現惡意使用，10 月爆量）。
 
 ## 二、ARTEX 是什麼
 
@@ -22,7 +22,7 @@
 | 著作權爭議 | 微步在線（ThreatBook）11/6 聲明：ARTEX 源自其威脅偵測工程師個人專案，公司擁有著作權；商業版 ARTEX Pro 僅經其 RedAgents 平台銷售 | 微步在線聲明（[CN-14](countries/china/README.md)）｜中（企業自述） |
 | 架構 | Planner（規劃）代理拆解目標產生 intent，Worker 代理（預設 3 個並行）執行 nmap、curl、Impacket 等工具並回寫；另有驗證（verifier）、壓縮（compressor）、報告、對話等角色代理；「資產圖」與「探索圖」（黑板：任務、目標、intent、事實、發現、提示、壓縮摘要）作為共享記憶 | S2W、Datadog、AWS、GTIG｜高 |
 | 內建控制 | 指令攔截規則（允許／拒絕／詢問人工）、資產允許／封鎖清單（部分版本預設排除 .gov、.gov.cn、.edu、.edu.cn）、mitmproxy 流量錄製、MCP／Skill 擴充 | Datadog、S2W｜高 |
-| LLM 使用方式 | 支援 OpenAI 相容、OpenAI Responses、Anthropic Messages 三種格式；任何供應商封鎖金鑰即切換下一家。實際觀測：DeepSeek（主力，含 v4.1-flash）、GLM、Grok、Kimi，以及 Claude、GPT；攻擊者以 GLM 審查 DeepSeek 成果、並把 Claude Code／Codex／Grok 工作區與 ARTEX 串接；SentinelOne 稱每次行動模型成本約 145–1,500 美元，且僅 Opus 5.5 觸發護欄 | Datadog、Zscaler、Hunt.io、SentinelOne｜高 |
+| LLM 使用方式 | 支援 OpenAI 相容、OpenAI Responses、Anthropic Messages 三種格式；任何供應商封鎖金鑰即切換下一家。實際觀測：DeepSeek（主力，含 v4.1-flash）、GLM、Grok、Kimi，以及 Claude、GPT；攻擊者以 GLM 審查 DeepSeek 成果、並把 Claude Code／Codex／Grok 工作區與 ARTEX 串接；SentinelOne 稱每次行動模型成本約 145–1,500 美元，且僅 Opus 5.5 觸發護欄（逐一來源與版本見 [models.md](models.md)） | Datadog、Zscaler、Hunt.io、SentinelOne｜高 |
 | 速度 | FBI：部分入侵自鎖定目標至取得特權不到 3 小時；GTIG：UNC7228 平均約 4 小時、最快 15 分鐘；執行爆發 2–25 秒（23 秒內 27 個事件）；Bitrise：登入後 11 分鐘內使用雲端金鑰 | FBI、GTIG、Bitrise｜高 |
 | 暴露規模 | Censys（11/3–4）1,465 個暴露控制台（約 815 個獨立主機；美國 726、香港 387、中國 177、日本 51、新加坡 38、韓國 21）；SentinelOne 曾見至少 2,500 台、在線 1,608 台；FBI 稱逾 1,600 個 | Censys、SentinelOne、FBI｜高 |
 
@@ -86,6 +86,7 @@
 | [GL-38](countries/global/README.md) | 2026-11-06 | 全球 | 🧨 Microsoft：ARTEX濫用擴大，柬埔寨據點的Storm-3358鎖定東南亞金融機構 | 東南亞金融機構及部分大型跨國組織 | — | 柬埔寨（Storm-3358，財務動機） | 🟢高 | [microsoft.com](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/) |
 | [GL-39](countries/global/README.md) | 2026-11-09 | 全球 | 🧨 Datadog：ARTEX於AWS環境的野外活動——以外洩長期金鑰搜尋CloudWatch財務資料、濫用公開Cognito使用者池自助註冊 | 多個AWS客戶環境（未具名） | 部分列舉因權限不足失敗 | 未歸因（控制台多為中文、託管於新加坡與香港） | 🟢高 | [securitylabs.datadoghq.com](https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/) |
 | [GL-40](countries/global/README.md) | 2026-11-10 | 全球 | 🧨 Sophos X-Ops：少數客戶出現與ARTEX相符活動，發布檢測名稱、IPS特徵與主機狩獵指標 | 少數Sophos客戶（未具名） | 數百筆防護事件 | 中國（引述微軟Storm-0940） | 🟢高 | [sophos.com](https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai) |
+| [GL-47](countries/global/README.md) | 2026-11-11 | 全球 | Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密 | 對外IIS應用程式及其AWS環境（未具名） | 正式環境機密遭取；S3物件遭刪 | 未歸因 | 🟡中 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) |
 | [GL-11](countries/global/README.md) | 2026-11-13 | 全球 | Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施 | Bitrise（行動應用CI/CD平台）與15個客戶工作區 | 15個客戶工作區檔案遭未授權存取；撤銷919把雲端服務帳號金鑰、重建上千台伺服器 | 未歸因 | 🟢高 | [bitrise.io](https://bitrise.io/artex-incident-report) |
 | [GL-41](countries/global/README.md) | 2026-11-13 | 全球 | 🧨 Amazon威脅情報：MadPot蜜罐擷取ARTEX代理作戰記憶，揭露工業規模AI憑證竊取與加密貨幣交易所深偽KYC繞過 | 全球暴露的AI應用平台與閘道；2家加密貨幣交易所 | AWS已通知可能受影響客戶 | 中國關聯（中度信心，多個不同群體） | 🟢高 | [aws.amazon.com](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/) |
 | [GL-42](countries/global/README.md) | 2026-11-13 | 全球 | 🧨 SentinelOne：ARTEX解密——至少5個行動者／群集、每次行動模型成本約145–1,500美元 | 全球多產業 | — | 中國關聯；柬埔寨（Storm-3358）等至少5個行動者 | 🟢高 | [sentinelone.com](https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/) |
@@ -152,6 +153,7 @@
 - **2026-11-10**｜全球｜[GL-40](countries/global/README.md)｜🧨 Sophos X-Ops：少數客戶出現與ARTEX相符活動，發布檢測名稱、IPS特徵與主機狩獵指標
 - **2026-11-11**｜台灣｜[TW-14](countries/taiwan/README.md)｜資安署：國際AI網攻波及台灣十餘家企業與平台，逾百萬份個資受影響，近半數涉及AI／ARTEX
 - **2026-11-11**｜美國｜[US-20](countries/united-states/README.md)｜🧨 Barracuda：竊得某AI廠商雲端金鑰的ARTEX式攻擊，44小時內存取約10個雲端帳號
+- **2026-11-11**｜全球｜[GL-47](countries/global/README.md)｜Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密
 - **2026-11-13**｜美國｜[US-16](countries/united-states/README.md)｜FBI FLASH-20261113-001：ARTEX自主滲透框架威脅概覽，公布24個IP、網域與LLM API主機等IOC
 - **2026-11-13**｜全球｜[GL-11](countries/global/README.md)｜Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施
 - **2026-11-13**｜全球｜[GL-41](countries/global/README.md)｜🧨 Amazon威脅情報：MadPot蜜罐擷取ARTEX代理作戰記憶，揭露工業規模AI憑證竊取與加密貨幣交易所深偽KYC繞過
@@ -162,7 +164,7 @@
 
 補充關鍵時點（出自上列報告）：2026-07-26 首次提交 → 8 月起惡意使用（FBI；Zscaler 所見提示紀錄始於 8/4 UTC）→ 8/18 跳板 38.244.50[.]120 已暴露（Censys）→ 9/3 百度賽事奪冠 → 9/21 DIVD 遭入侵 → 9/27–10/1 韓國銀行攻擊高峰（金融保安院）→ 10/3 91APP 遭入侵 → 10/7 CrowdStrike 揭露 → 10/8 轉閉源 → 10/15–16 ConnectWise 下游 162 個租戶遭未授權登入（Huntress） → 10/22 歐盟執委會偵測入侵 → 11/1–2 Barracuda 44 小時入侵 → 11/12 起韓國大學遭攻擊（KimJEN 自稱）→ 11/13 FBI FLASH、AWS、SentinelOne 報告 → 11/19 歐盟執委會證實。
 
-## 五、受害國家與產業統計（由第三節「具體攻擊／入侵／分析」33 件計算）
+## 五、受害國家與產業統計（由第三節「具體攻擊／入侵／分析」34 件計算）
 
 ### 受害國家涵蓋（主檔＋受波及，一事件可計入多國；「全球」不計）
 
@@ -195,13 +197,13 @@
 | 醫療 | 1 | KR-03 |
 | 媒體／物流 | 1 | JP-13 |
 | 遊戲 | 1 | GL-33 |
-| 未具名／多產業 | 6 | JP-06、KR-03、KR-12、GL-35、GL-40、GL-42 |
+| 未具名／多產業 | 7 | JP-06、KR-03、KR-12、GL-35、GL-40、GL-47、GL-42 |
 
 ### 依事件類別與可信度
 
 | 類別 | 件數 |
 |---|---|
-| AI代理自動化入侵 | 31 |
+| AI代理自動化入侵 | 32 |
 | 政府警示/評估報告 | 10 |
 | AI輔助攻擊/惡意程式 | 1 |
 | 針對AI系統/平台的攻擊 | 1 |
@@ -281,14 +283,16 @@
 
 ## 八、相關 AI 攻擊框架比較（僅依本資料集收錄之公開報告）
 
+> 各框架官方支援模型與實戰觀測模型的逐條出處、模型使用排行，見 **[models.md](models.md)**。
+
 | 框架 | 性質 | 本資料集所見特徵 | 野外濫用事件 |
 |---|---|---|---|
-| **ARTEX** | 開源（後轉閉源）多代理自主滲透框架，中國開發 | Planner／Worker＋圖狀共享記憶；多 LLM 切換；網頁控制台大量暴露 | 本頁 43 件 |
+| **ARTEX** | 開源（後轉閉源）多代理自主滲透框架，中國開發 | Planner／Worker＋圖狀共享記憶；多 LLM 切換；網頁控制台大量暴露 | 本頁 44 件 |
 | **Cairn**（CAIRN） | 自主攻擊框架，調度／黑板架構 | Unit 42：CL-STA-1238 客製化版本＋「AIScan Runner Skills」，使用 GLM 5.2、DeepSeek V4；附偽造授權文件 AUTHORIZATION.md | JP-06、IN-05、US-06、US-07、US-14、GL-23 |
-| **CyberStrikeAI** | 開源多代理攻防平台 | 趨勢科技：簡體中文控制台、44 個角色代理全程自動化（偵察至外傳與報告）；AhnLab 發現部分 ARTEX 基礎設施同時運行 | JP-06、JP-17、IN-05、CA-01、GL-32 |
-| **PentAGI** | 開源自主滲透系統（VXControl） | 加拿大網安中心：全球觀測之 AI 攻擊工具基礎設施約 14%；GTIG 與 CERT-In 亦點名 | IN-05、CA-01 |
+| **CyberStrikeAI** | 開源多代理攻防平台 | 趨勢科技：簡體中文控制台、44 個角色代理全程自動化（偵察至外傳與報告）；AhnLab 發現部分 ARTEX 基礎設施同時運行 | TW-18、JP-06、JP-17、IN-05、CA-01、GL-32 |
+| **PentAGI** | 開源自主滲透系統（VXControl） | 加拿大網安中心：全球觀測之 AI 攻擊工具基礎設施約 14%；GTIG 與 CERT-In 亦點名 | IN-05、CA-01、LATAM-02、GL-46 |
 | **Strix** | 開源 AI 資安測試代理 | Gambit：與 Cairn、Hermes 串接入侵數百家電商、竊取 60 萬筆信用卡 | US-06 |
-| **OpenClaw**（「龍蝦」）／**Hermes** | 通用 AI 代理（非專門攻擊框架），具高權限、可自主運作與技能擴充 | 台灣政府機關遭以 OpenClaw／Hermes「近乎自主」攻擊；OpenClaw 技能市集遭投毒；Unit 42：BUGSTER 以 Hermes 規劃攻擊 | TW-06、IN-04、US-06 |
+| **OpenClaw**（「龍蝦」）／**Hermes** | 通用 AI 代理（非專門攻擊框架），具高權限、可自主運作與技能擴充 | 台灣政府機關遭以 OpenClaw／Hermes「近乎自主」攻擊；OpenClaw 技能市集遭投毒；Unit 42：BUGSTER 以 Hermes 規劃攻擊 | TW-06、TW-18、IN-04、US-06、GL-45、GL-48 |
 | Hexstrike | MCP 型攻擊工具整合 | GTIG「ARTEX and Friends」一併分析 | （GL-36 內文） |
 
 > 共通點：各報告一致指出，這些框架**沒有發明新技術**，入口仍是未修補的公開系統、預設／外洩憑證與設定錯誤；改變的是**速度、規模、持續性與門檻**。差異在於：ARTEX 與 CyberStrikeAI 提供完整網頁控制台、易於多人共用與大規模部署（因此暴露最多）；Cairn 常見於國家關聯的客製化行動；OpenClaw／Hermes 屬通用代理被挪用。

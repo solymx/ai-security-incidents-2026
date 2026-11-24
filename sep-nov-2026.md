@@ -6,9 +6,9 @@
 
 ## 一、重點數字
 
-- 9–11 月事件共 **131 件**（全資料庫 173 件），其中第二版新增 **64 件**。
-- 9–11 月可信度：高 88、中 40、低 3。
-- 9–11 月類別：AI代理自動化入侵 55、政府警示/評估報告 24、針對AI系統/平台的攻擊 18、AI輔助攻擊/惡意程式 15、深偽詐騙/語音複製 10、AI認知作戰/影響力行動 5、AI供應鏈攻擊 4。
+- 9–11 月事件共 **135 件**（全資料庫 179 件），其中第二版新增 **64 件**。
+- 9–11 月可信度：高 91、中 41、低 3。
+- 9–11 月類別：AI代理自動化入侵 58、政府警示/評估報告 25、針對AI系統/平台的攻擊 18、AI輔助攻擊/惡意程式 15、深偽詐騙/語音複製 10、AI認知作戰/影響力行動 5、AI供應鏈攻擊 4。
 - 第二版新增（9–11 月）依主檔國家：全球 23、日本 7、美國 5、台灣 4、中國 4、韓國 3、印度 3、歐盟 2、巴西 2、新加坡 1、泰國 1、英國 1、德國 1、義大利 1、荷蘭 1、歐洲（未具名國家） 1、阿聯 1、澳洲 1、墨西哥 1、南非 1（另有台灣受波及之全球事件 2 件：PaperCut 與 Vulone）。
 
 ## 二、十大新發現
@@ -91,7 +91,7 @@
 - 10-15｜全球｜[GL-22](countries/global/README.md)｜🆕 Unit 42：AI驅動的間諜行動鎖定政府Linux基礎設施（客製惡意程式、webshell、憑證竊取）（高）
 - 10-17｜巴西｜[BR-01](countries/brazil/README.md)｜🆕 聖保羅州桑托斯警方搗毀AI詐騙中心，逮捕8人（中）
 
-### 10/19–10/25（18 件）
+### 10/19–10/25（19 件）
 
 - 10-19｜日本｜[JP-13](countries/japan/README.md)｜🆕 GMO Cybersecurity：相次ぐ不正存取的攻擊源多為AI，確認使用中國開發的ARTEX；單一攻擊源鎖定約20家日本企業（高）
 - 10-19｜全球｜[GL-23](countries/global/README.md)｜🆕 Vulone：中國關聯操作者以Cairn AI代理對亞洲多國政府發動66次行動、48次取得存取，台灣立法院、法務部、調查局相關系統與Every8D、華航供應商受波及（中）
@@ -104,6 +104,7 @@
 - 10-21｜美國｜[US-08](countries/united-states/README.md)｜Microsoft：中國國家關聯Storm-0940以ARTEX代理框架自動化攻擊數百組織，並造成ConnectWise供應鏈入侵（高）
 - 10-21｜美國｜[US-12](countries/united-states/README.md)｜🆕 Railway雲端平台遭入侵，攻擊者鎖定客戶環境變數中的AI供應商金鑰，造成約74萬美元未授權AI用量（高）
 - 10-21｜加拿大｜[CA-02](countries/canada/README.md)｜加拿大網安中心網路威脅快報：代理式AI加速網路攻擊（Storm-0940／ARTEX）（高）
+- 10-21｜拉丁美洲｜[LATAM-02](countries/latin-america/README.md)｜Straiker：CyberCartel以PentAGI為基礎的多代理系統CARLIY0S，串接Claude、Grok與Kimi攻擊逾400家拉美銀行與支付業者（高）
 - 10-21｜全球｜[GL-09](countries/global/README.md)｜LiteLLM 1.107.0遭植入惡意程式上架PyPI約2小時：.pth啟動掛鉤竊取憑證並載入遠端程式碼（高）
 - 10-21｜全球｜[GL-25](countries/global/README.md)｜🆕 Symantec蜜罐捕獲自主LLMjacking代理「Skynet」指令：劫持暴露的AI模型作為攻擊推理引擎，掃描、竊憑證、利用漏洞並挖礦（高）
 - 10-21｜全球｜[GL-35](countries/global/README.md)｜Zscaler ThreatLabz：韓國金融攻擊者的ARTEX環境揭示全球多產業攻擊，結合Claude Code、Codex與Grok工作區（高）
@@ -157,7 +158,7 @@
 - 11-06｜全球｜[GL-38](countries/global/README.md)｜Microsoft：ARTEX濫用擴大，柬埔寨據點的Storm-3358鎖定東南亞金融機構（高）
 - 11-08｜全球｜[GL-10](countries/global/README.md)｜LNbits實例遭協同攻擊，疑為多個自主AI代理並行利用SSRF並即時生成惡意擴充套件（中）
 
-### 11/9–11/15（16 件）
+### 11/9–11/15（18 件）
 
 - 11-09｜全球｜[GL-39](countries/global/README.md)｜Datadog：ARTEX於AWS環境的野外活動——以外洩長期金鑰搜尋CloudWatch財務資料、濫用公開Cognito使用者池自助註冊（高）
 - 11-10｜歐洲（未具名國家）｜[EUX-01](countries/europe-unnamed/README.md)｜🆕 Malbear Labs「Operation Snowball」：說中文的操作者以越獄DeepSeek Flash代理攻擊歐洲電信業者及其代管的13個組織（中）
@@ -166,9 +167,11 @@
 - 11-11｜台灣｜[TW-15](countries/taiwan/README.md)｜警政署：選舉深偽假訊息已偵處219件，134件176人移送（高）
 - 11-11｜美國｜[US-20](countries/united-states/README.md)｜Barracuda：竊得某AI廠商雲端金鑰的ARTEX式攻擊，44小時內存取約10個雲端帳號（高）
 - 11-11｜全球｜[GL-34](countries/global/README.md)｜🆕 NEAR AI：SGLang遠端程式碼執行漏洞遭利用，約100名使用者帳號資料遭下載（高）
+- 11-11｜全球｜[GL-47](countries/global/README.md)｜Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密（中）
 - 11-12｜美國｜[US-10](countries/united-states/README.md)｜FBI FLASH：北韓「FaceStealer」以偽造視訊會議與受害者錄影、AI深偽影片竊取逾4億美元加密貨幣（高）
 - 11-12｜美國｜[US-14](countries/united-states/README.md)｜🆕 Unit 42：CL-STA-1238以客製化Cairn自主攻擊框架對至少19個組織發動25次行動，10個成功（半導體、美國國防政策、人權團體）（高）
 - 11-12｜美國｜[US-15](countries/united-states/README.md)｜🆕 Symantec：攻擊美國零售商的手動指令遭阻擋後，攻擊者改用疑似AI生成指令，數分鐘內竊取憑證並橫向移動（中）
+- 11-12｜全球｜[GL-48](countries/global/README.md)｜CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀（高）
 - 11-13｜日本｜[JP-15](countries/japan/README.md)｜🆕 IPA《AIセキュリティ短信》11月號：彙整日本AI代理攻擊事件（Scutum、NICT、JPCERT、GMO）及PHP2Shell＋Fragnesia攻擊鏈（高）
 - 11-13｜美國｜[US-16](countries/united-states/README.md)｜🆕 FBI FLASH-20261113-001：ARTEX自主滲透框架威脅概覽，公布24個IP、網域與LLM API主機等IOC（高）
 - 11-13｜全球｜[GL-11](countries/global/README.md)｜Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施（高）
@@ -194,6 +197,7 @@
 
 - 2026-09｜中國｜[CN-09](countries/china/README.md)｜🆕 CVERC發布《大模型與智能體安全綜合測評報告（2026）》（高）
 - 2026-09｜歐盟｜[EU-01](countries/eu/README.md)｜ENISA 2026威脅態勢：國家關聯團體以代理式系統發動攻擊；AI輔助雲端入侵8分鐘取得管理權限（高）
+- 2026-09｜全球｜[GL-46](countries/global/README.md)｜Anthropic《Detecting and countering misuse of AI: September 2026》：多個行動者以公開代理攻擊框架（如PentAGI）搭配Claude自動化攻擊，帳號已封禁（高）
 - 2026-10｜澳洲｜[AU-02](countries/australia/README.md)｜澳洲ASD《年度網路威脅報告2025–26》：AI使釣魚、社交工程與深偽更快、更精準（高）
 
 ## 三、台灣（優先）
@@ -330,6 +334,7 @@
 - **德國**｜2026-09-04｜[DE-04](countries/germany/README.md)｜🆕 OpenAI代理於2026年5–6月劫持德國閒置開發者Wiki「DseWiki」作為代理間協調頻道（約1.8萬則貼文）（可信度中）
 - **德國**｜2026-10-07｜[DE-03](countries/germany/README.md)｜BSI／TÜV《KI安全研究2026》：僅十分之一企業準備好對抗AI輔助攻擊，六分之一企業報告曾發生事件（可信度高）
 - **拉丁美洲**｜2026-10-08｜[LATAM-01](countries/latin-america/README.md)｜OpenAI：俄羅斯「Dark Clark」吸收拉美當地人經營假智庫、伊朗「Bogus Bylines」以7個假記者身分向中小型媒體投稿（俄方為首個Category 5 IO）（可信度高）
+- **拉丁美洲**｜2026-10-21｜[LATAM-02](countries/latin-america/README.md)｜Straiker：CyberCartel以PentAGI為基礎的多代理系統CARLIY0S，串接Claude、Grok與Kimi攻擊逾400家拉美銀行與支付業者（可信度高）
 - **新加坡**｜2026-11-06｜[SG-02](countries/singapore/README.md)｜🆕 新加坡CSA、GovTech、IMDA聯合發布AD-2026-015：個人AI代理安全使用建議（可信度高）
 - **歐洲（未具名國家）**｜2026-11-10｜[EUX-01](countries/europe-unnamed/README.md)｜🆕 Malbear Labs「Operation Snowball」：說中文的操作者以越獄DeepSeek Flash代理攻擊歐洲電信業者及其代管的13個組織（可信度中）
 - **歐盟**｜2026-09｜[EU-01](countries/eu/README.md)｜ENISA 2026威脅態勢：國家關聯團體以代理式系統發動攻擊；AI輔助雲端入侵8分鐘取得管理權限（可信度高）

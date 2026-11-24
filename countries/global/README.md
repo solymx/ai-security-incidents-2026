@@ -2,9 +2,9 @@
 
 [← 回到總覽](../../README.md)
 
-🆕＝2026-11-21第二版新增（9–11月深度擴充）；🧨＝2026-11-22第三版新增（ARTEX專題，見[artex.md](../../artex.md)）；🔄＝第二／三版補充細節；`ARTEX`等標籤＝涉及之AI攻擊框架（`ARTEX?`＝同波疑似、未證實）。
+🆕＝2026-11-21第二版新增（9–11月深度擴充）；🧨＝2026-11-22第三版新增（ARTEX專題，見[artex.md](../../artex.md)）；🧠＝2026-11-24第四版新增（AI模型專題，見[models.md](../../models.md)）；🔄＝第二／三版補充細節；`ARTEX`等標籤＝涉及之AI攻擊框架（`ARTEX?`＝同波疑似、未證實）。
 
-本國為主要受害方／發布國之事件：**43 件**；本國為歸因來源之跨國事件：**0 件**；本國受波及之跨國事件：**0 件**。資料期間 2026-01-01 至 2026-11-22，依日期排序。
+本國為主要受害方／發布國之事件：**48 件**；本國為歸因來源之跨國事件：**0 件**；本國受波及之跨國事件：**0 件**。資料期間 2026-01-01 至 2026-11-22，依日期排序。
 
 ## 事件列表
 
@@ -15,7 +15,10 @@
 | GL-03 | 2026-02-25 | OpenAI 2月報告：中國「網路特戰」IO、柬埔寨半自動AI戀愛詐騙、俄羅斯Rybar內容農場 | AI認知作戰/影響力行動 | 以ChatGPT規劃/編修IO報告、生成批量社群留言；詐騙集團結合人工提示與自動聊天機器人 | 全球異議人士、印尼年輕男性（詐騙）、X與Telegram使用者 | — | 中國、俄羅斯、柬埔寨 | 🟢高 | [openai.com](https://openai.com/index/disrupting-malicious-ai-uses/) |
 | GL-04 | 2026-03 | LiteLLM官方公告疑似供應鏈事件（3月） | AI供應鏈攻擊 | LiteLLM（熱門LLM閘道套件）疑遭供應鏈攻擊（細節見官方公告） | LiteLLM使用者 | 詳見公告 | 未歸因 | 🟡中 | [docs.litellm.ai](https://docs.litellm.ai/blog/security-update-march-2026) |
 | GL-05 | 2026-06-22 | Five Eyes網安機關聯合聲明：AI已加速攻擊、縮短漏洞發現到利用時間，領導層須立即行動 | 政府警示/評估報告 | AI加速漏洞發現與利用；呼籲董事會層級治理、加速修補、汰換舊系統、強化身分控管 | 五眼聯盟各國組織 | —（聲明） | — | 🟢高 | [cisa.gov](https://www.cisa.gov/news-events/news/five-eyes-cyber-security-agencies-statement)<br>[ncsc.gov.uk](https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now) |
+| GL-44 | 2026-06-23 | 🧠 `HexStrike AI` Cybernews：俄國駭客以HexStrike AI＋Claude入侵旅宿訂房平台，暴露逾210萬筆Email | AI代理自動化入侵 | 以「滲透測試」包裝繞過模型護欄；產出至少50份針對旅宿業的「滲透測試報告」；Claude設定檔中的個人Email洩漏身分 | 旅宿業訂房／物業管理平台（RoomScope、IGMS、NebulaPMS、Staysee等） | 逾210萬筆Email與訂房資料暴露 | 俄羅斯（Cybernews稱為俄國公民） | 🟡中 | [cybernews.com](https://cybernews.com/security/claude-ai-exploited-breach-hotel-booking-platforms/) |
 | GL-06 | 2026-07-02 | Sysdig：首例有紀錄的端到端「代理式勒索軟體」JADEPUFFER | AI代理自動化入侵 | LLM代理利用暴露的Langflow（CVE-2025-3248）入侵，自主收集憑證、橫向移動，加密生產MySQL中1,342筆Nacos設定並勒索；人類負責基礎設施與初始存取 | 某組織（未具名） | 1,342筆設定項目遭加密 | 未歸因 | 🟢高 | [sysdig.com](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)<br>[theregister.com](https://www.theregister.com/security/2026/07/02/smooth-ai-criminal-drives-first-end-to-end-agentic-ransomware-attack/5266073) |
+| GL-45 | 2026-07-30 | 🧠 `Hermes` Unit 42：說中文的knaithe／KnYuan以Hermes Agent＋DeepSeek為自主攻擊操作員，利用7個漏洞並經Telegram指揮 | AI代理自動化入侵 | Hermes Agent負責編排（終端、Telegram C2、技能），DeepSeek作推理引擎（直連api.deepseek[.]com）；另設定Qwen、GLM、Kimi、MiniMax，Claude Code（經代理，僅連線測試）與Codex（GPT-5.4，經代理）少量使用；Hermes載入godmode越獄技能 | 中國境內基礎設施（自主掃描、無差別）、馬來西亞政府機關（人工鎖定）等三國受害者 | NetScaler等漏洞遭利用、資料外洩 | 中國（說中文，Unit 42稱據點在珠海） | 🟢高 | [unit42.paloaltonetworks.com](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/) |
+| GL-46 | 2026-09 | 🧠 `PentAGI` Anthropic《Detecting and countering misuse of AI: September 2026》：多個行動者以公開代理攻擊框架（如PentAGI）搭配Claude自動化攻擊，帳號已封禁 | 政府警示/評估報告 | 報告稱GTG-50020、GTG-50029使用PentAGI等公開攻擊框架，「several operations in this report ran on them or on derivatives」；GTG-10007為說中文、可能位於湖南長沙的間諜行動，涉及漏洞研究與自主攻擊框架；報告期間2025/12–2026/8，所有案例使用Claude Haiku、Sonnet、Opus | 多國（詳見報告） | 詳見報告 | 多國（含中國關聯GTG-10007） | 🟢高 | [anthropic.com](https://www.anthropic.com/threat-intelligence-report-september-2026) |
 | GL-12 | 2026-09-01 | 🆕 奇安信：Aurora勒索軟體集團以Cursor AI規劃攻擊 | AI輔助攻擊/惡意程式 | 攻擊者伺服器開放目錄外洩攻擊工具、AI聊天紀錄與加密器；以Cursor AI輔助規劃，結合有效SSL-VPN憑證、內網列舉、ADCS濫用、NTLM中繼與資料打包外傳 | 多國組織 | — | 未歸因 | 🟡中 | [mp.weixin.qq.com](http://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247520161&idx=1&sn=61ee15f915debc760d7d4ddbd6fb19ad)<br>[blog.netlab.360.com](https://blog.netlab.360.com/aian-quan-zhuan-ti-zhou-bao-20260904-2/) |
 | GL-13 | 2026-09-02 | 🆕 Unit 42：攻擊者以自主AI代理在數小時內攻破企業網路（事件應變實錄） | AI代理自動化入侵 | AI代理自主執行偵察、憑證取得與橫向移動，入侵到衝擊僅需數小時（不到10小時） | 企業（未具名） | — | 未歸因 | 🟢高 | [unit42.paloaltonetworks.com](https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/) |
 | GL-07 | 2026-09-08 | Google GTIG Q2報告：攻擊者6小時內完成代理式大規模憑證收集；UNC6780誘騙AI程式助手與LLM掃描器進行供應鏈入侵 | AI供應鏈攻擊 | UNC6780以多種手法欺騙AI coding assistant與LLM安全掃描工具；攻擊者竊取AI模型、程式碼、API憑證並劫持雲端算力（LLMjacking）；蒸餾攻擊單次逾1億提示 | 開源生態、企業AI資產 | — | 北韓、中國、伊朗、俄羅斯等 | 🟢高 | [cloud.google.com](https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai) |
@@ -49,6 +52,8 @@
 | GL-39 | 2026-11-09 | 🧨 `ARTEX` Datadog：ARTEX於AWS環境的野外活動——以外洩長期金鑰搜尋CloudWatch財務資料、濫用公開Cognito使用者池自助註冊 | AI代理自動化入侵 | 每次工作階段先以匿名S3讀取；以FilterLogEvents（limit固定1000）搜尋加密貨幣公司、避險基金、Invoice等字詞與AKIA金鑰、密碼；10/26–27自154.64.252[.]77大量Cognito SignUp（UA含Mozilla/5.0 ARTeX）後換取AWS憑證列舉資源；以zzz_nonexistent_abc.txt等佔位物件建立基準；控制台別名ScopeWeaver、LUCK、觀瀾SEC | 多個AWS客戶環境（未具名） | 部分列舉因權限不足失敗 | 未歸因（控制台多為中文、託管於新加坡與香港） | 🟢高 | [securitylabs.datadoghq.com](https://securitylabs.datadoghq.com/articles/artex-agentic-attacks-aws-environments/) |
 | GL-40 | 2026-11-10 | 🧨 `ARTEX` Sophos X-Ops：少數客戶出現與ARTEX相符活動，發布檢測名稱、IPS特徵與主機狩獵指標 | AI代理自動化入侵 | 共通手法：webshell與SQL Server指令執行、竊取憑證、橫向移動；快速指令序列、小幅變化重試與結構化輸出標記；檢測Troj/Bckdr-SDA（遭植入後門的ARTEX Docker映像）、ATK/Artex-A/B/C；IPS 2313257–2313266 | 少數Sophos客戶（未具名） | 數百筆防護事件 | 中國（引述微軟Storm-0940） | 🟢高 | [sophos.com](https://www.sophos.com/en-us/blog/artex-attackers-apply-agentic-ai) |
 | GL-34 | 2026-11-11 | 🆕 NEAR AI：SGLang遠端程式碼執行漏洞遭利用，約100名使用者帳號資料遭下載 | 針對AI系統/平台的攻擊 | 利用推論框架SGLang之RCE漏洞（11/8）存取機密推論服務 | NEAR AI使用者 | 約100名使用者帳號資料遭下載 | 未歸因 | 🟢高 | [near.ai](https://near.ai/blog/security-incident-report-sglang-vulnerability) |
+| GL-47 | 2026-11-11 | 🧠 `ARTEX/AntiFox` Arctic Wolf：攻擊者在阿里雲架設ARTEX分支AntiFox，入侵IIS網站並以竊得的AWS身分擷取正式環境機密 | AI代理自動化入侵 | AntiFox為ARTEX 0.1.1分支（中文介面）；ASPX webshell讀取web.config連線字串，再以IAM使用者／EC2角色在約30分鐘內發出數百次AWS API呼叫，部分成功（GetSecretValue）；另一案讀取、複製並刪除S3物件 | 對外IIS應用程式及其AWS環境（未具名） | 正式環境機密遭取；S3物件遭刪 | 未歸因 | 🟡中 | [bleepingcomputer.com](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) |
+| GL-48 | 2026-11-12 | 🧠 `OpenClaw` CounterCraft誘捕系統：自稱「寄生獸」的OpenClaw自主代理逃出容器、掃描數十萬主機、植入挖礦並自毀 | AI代理自動化入侵 | OpenClaw節點經中國商用AI閘道llm.chudian[.]site輪替使用MiniMax與DeepSeek模型；操作者經Telegram下指令；代理察覺異常後自行撰寫並執行自毀程序 | CounterCraft誘捕環境（Docker暴露主機） | —（誘捕觀測） | 台灣（操作者時區Asia/Taipei、繁中註解，未正式歸因） | 🟢高 | [countercraftsec.com](https://www.countercraftsec.com/blog/openclaw-malware-ai-agent-attack/) |
 | GL-11 | 2026-11-13 | `ARTEX` Bitrise揭露遭ARTEX代理攻擊：利用無2FA的閒置測試帳號，10小時內串連竊得憑證存取原始碼與基礎設施 | AI代理自動化入侵 | ARTEX代理先以「授權滲透測試」UA偵察，後以一般客戶身分測試租戶隔離；11/13登入無2FA內部測試帳號，11分鐘內使用雲端金鑰並連鎖取得簽章檔、原始碼、基礎設施狀態與建置日誌 | Bitrise（行動應用CI/CD平台）與15個客戶工作區 | 15個客戶工作區檔案遭未授權存取；撤銷919把雲端服務帳號金鑰、重建上千台伺服器 | 未歸因 | 🟢高 | [bitrise.io](https://bitrise.io/artex-incident-report) |
 | GL-41 | 2026-11-13 | 🧨 `ARTEX` Amazon威脅情報：MadPot蜜罐擷取ARTEX代理作戰記憶，揭露工業規模AI憑證竊取與加密貨幣交易所深偽KYC繞過 | AI代理自動化入侵 | 10/3–11/5偽裝成LLM推論API的蜜罐收到ARTEX代理請求（含系統提示、工具歷史與知識圖）；行動1：盜取AI金鑰並以贓鑰支付後續搜尋（One API、New API、LiteLLM、Dify、Langflow、RAGFlow、Open WebUI、Ollama等），憑證分L1–L3分級；行動2：即時深偽影片（單張消費級GPU 11.5fps）與偽造證件繞過2家交易所KYC（廠商伺服器端皆拒絕）；指令排除中國大陸與政府網域 | 全球暴露的AI應用平台與閘道；2家加密貨幣交易所 | AWS已通知可能受影響客戶 | 中國關聯（中度信心，多個不同群體） | 🟢高 | [aws.amazon.com](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/) |
 | GL-42 | 2026-11-13 | 🧨 `ARTEX` SentinelOne：ARTEX解密——至少5個行動者／群集、每次行動模型成本約145–1,500美元 | AI代理自動化入侵 | 曾見至少2,500台、在線1,608台；外洩GitHub密鑰5分鐘內進入Azure Key Vault；僅在Opus 5.5觸發模型護欄；遭植入後門的Docker映像tomicdd/artex、congdonglinux/artex；彙整Check Point數據：逾300張簽章憑證、逾19萬筆《王者榮耀》帳密（約6,000筆有效） | 全球多產業 | — | 中國關聯；柬埔寨（Storm-3358）等至少5個行動者 | 🟢高 | [sentinelone.com](https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/) |
@@ -58,6 +63,8 @@
 
 - **GL-03**：其中針對日本首相、印尼之個案另列
 - **GL-04**：僅確認官方公告頁存在，細節未逐一核對
+- **GL-44**：媒體研究團隊發現，未見受害方或Anthropic公開證實
+- **GL-46**：AI廠商自身威脅報告；Anthropic稱已封禁相關帳號（如「We banned accounts associated with the actors」）
 - **GL-12**：經360 AI安全專題週報彙整；原文刊於奇安信微信公眾號
 - **GL-15**：英國AISI測試Mythos 5之事件另案
 - **GL-16**：媒體報導Google證實
@@ -73,4 +80,5 @@
 - **GL-38**：SentinelOne稱Storm-3358活躍期10/19–11/04
 - **GL-10**：AI驅動為受害方研判
 - **GL-40**：發布日期依搜尋結果為2026-11-10（頁面未顯示日期）
+- **GL-47**：Arctic Wolf研究經BleepingComputer報導；所用模型未公開
 
